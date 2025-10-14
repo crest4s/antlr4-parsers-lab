@@ -1,0 +1,10 @@
+ITEM:KNAGGLIG_SMALL
+1-Unir pieza fondo y pieza lateral_largo.
+2-Con destornillador, atornillar 2 tornillos 108363.
+3-Girar ABAJO; Colocar pieza lateral_largo.
+4-Con destornillador, atornillar 2 tornillos 108363; Girar LATERAL_CORTO.
+5-Colocar pieza lateral_corto_bajo; Con destornillador, atornillar 4 tornillos 108560. 
+6-Colocar pieza lateral_corto_alto; Con destornillador, atornillar 4 tornillos 108560. Voltear.
+7-Repetir (5).
+8-Colocar pieza lateral_corto_alto; Con destornillador, atornillar 4 tornillos 108560.
+FIN
