@@ -3,25 +3,45 @@ import org.antlr.v4.runtime.tree.*;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        // Texto de entrada que queremos analizar
-        String inputText = "hello world";
+        if (args.length < 2) {
+            System.out.println("Uso: java Main <gramatica> <archivo>");
+            return;
+        }
 
-        // 1️⃣ Crea un flujo de caracteres de entrada
-        CharStream input = CharStreams.fromString(inputText);
+        String grammar = args[0];
+        String filename = args[1];
+        CharStream input = CharStreams.fromFileName(filename);
 
-        // 2️⃣ Crea el lexer (analizador léxico)
-        helloLexer lexer = new helloLexer(input);
+        switch (grammar) {
+            case "csv":
+                CSVLexer csvLexer = new CSVLexer(input);
+                CommonTokenStream csvTokens = new CommonTokenStream(csvLexer);
+                CSVParser csvParser = new CSVParser(csvTokens);
+                ParseTree csvTree = csvParser.file();
+                CSVPrinter csvPrinter = new CSVPrinter();
+                ParseTreeWalker.DEFAULT.walk(csvPrinter, csvTree);
+                break;
 
-        // 3️⃣ Genera un flujo de tokens a partir del lexer
-        CommonTokenStream tokens = new CommonTokenStream(lexer);
+            case "epp":
+                EPPLexer eppLexer = new EPPLexer(input);
+                CommonTokenStream eppTokens = new CommonTokenStream(eppLexer);
+                EPPParser eppParser = new EPPParser(eppTokens);
+                ParseTree eppTree = eppParser.program();
+                EPPPrinter eppPrinter = new EPPPrinter();
+                ParseTreeWalker.DEFAULT.walk(eppPrinter, eppTree);
+                break;
 
-        // 4️⃣ Crea el parser (analizador sintáctico)
-        helloParser parser = new helloParser(tokens);
+            case "ikea":
+                IkeaLangLexer ikeaLexer = new IkeaLangLexer(input);
+                CommonTokenStream ikeaTokens = new CommonTokenStream(ikeaLexer);
+                IkeaLangParser ikeaParser = new IkeaLangParser(ikeaTokens);
+                ParseTree ikeaTree = ikeaParser.assembly();
+                IkeaPrinter ikeaPrinter = new IkeaPrinter();
+                ParseTreeWalker.DEFAULT.walk(ikeaPrinter, ikeaTree);
+                break;
 
-        // 5️⃣ Ejecuta la regla inicial (definida en Hello.g4 como 'r')
-        ParseTree tree = parser.r();
-
-        // 6️⃣ Muestra el árbol sintáctico resultante
-        System.out.println(tree.toStringTree(parser));
+            default:
+                System.out.println("Gramática no reconocida (usa: csv | epp | ikea)");
+        }
     }
 }
