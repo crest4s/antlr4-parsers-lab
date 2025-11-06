@@ -1,95 +1,46 @@
 grammar IkeaLang;
 
-// -------- Parser --------
-program
-  : header? toolsDecl? stepDecl+ EOF
-  ;
+// === Reglas principales ===
 
-header
-  : 'modelo' NAME ';'
-  ;
+manual         : itemHeader instruction+ FIN EOF ;
 
-toolsDecl
-  : 'herramientas' ':' toolItem (',' toolItem)* ';'
-  ;
+itemHeader     : ITEM ID ;
 
-stepDecl
-  : 'paso' INT ':' instr (',' instr)* ';'            # simpleStep
-  | 'opcion' NAME '{' stepDecl+ '}'                  # optionBlock
-  ;
+// Una instrucción puede tener varios grupos de pasos separados por punto.
+instruction    : INT '-' stepList ('.' stepList)* '.' ;
 
-instr
-  : action obj (prep obj)*                           # genericInstr
-  ;
+stepList       : step (';' step)* ;
 
-action
-  : 'usar' | 'fijar' | 'atornillar' | 'encajar' | 'pegar'
-  | 'colgar' | 'montar' | 'girar' | 'alinear' | 'insertar'
-  ;
+// === Tipos de pasos ===
 
-obj
-  : qty? (hardware | piece | toolItem | NAME | STRING)
-  ;
+step           : unir
+               | colocar
+               | atornillar
+               | conHerramienta atornillar
+               | girar
+               | voltear
+               | repetir
+               ;
 
-qty       : INT 'x' ;
-prep      : 'en' | 'a' | 'con' | 'sobre' | 'entre' ;
+unir           : 'Unir' pieza 'y' pieza ;
+colocar        : 'Colocar' pieza ;
+atornillar     : 'atornillar' INT 'tornillos' (INT | ID) ;
+conHerramienta : 'Con' herramienta ',' ;
 
-hardware
-  : H_TORNILLO
-  | H_ESPIGA
-  | H_TACO
-  | H_BISAGRA
-  | H_PERNO
-  | H_MINIFIX
-  | H_SOPORTE
-  | H_PATAS
-  | H_TIRADOR
-  ;
+girar          : 'Girar' direccion ;
+voltear        : 'Voltear' ;
+repetir        : 'Repetir' '(' INT ')' ;
 
-toolItem
-  : T_DESTORNILLADOR
-  | T_MARTILLO
-  | T_ALLEN
-  | T_TALADRO
-  | T_NIVEL
-  | T_METRO
-  | T_LAPIZ
-  | NAME
-  ;
+pieza          : 'pieza' ID ;
+herramienta    : ID ;
+direccion      : ID ;
 
-piece
-  : 'pieza' NAME                // p.ej. pieza A, pieza LADO-IZQ
-  | 'tablero' NAME
-  | 'panel' NAME
-  | 'estante' NAME
-  | 'trasera' NAME
-  ;
+// === Tokens ===
 
-// -------- Lexer --------
-NAME      : [a-zA-Z0-9_][a-zA-Z0-9_\-]* ;
-INT       : [0-9]+ ;
-STRING    : '"' ('\\"' | ~["\r\n])* '"' ;
+FIN            : 'FIN' ;
+ITEM           : 'ITEM:' ;
+INT            : [0-9]+ ;
+ID             : [a-zA-Z_][a-zA-Z_0-9]* ;
 
-H_TORNILLO: 'tornillo' ;
-H_ESPIGA  : 'espiga' ;
-H_TACO    : 'taco' ;
-H_BISAGRA : 'bisagra' ;
-H_PERNO   : 'perno' ;
-H_MINIFIX : 'minifix' ;
-H_SOPORTE : 'soporte' ;
-H_PATAS   : 'pata' | 'patas' ;
-H_TIRADOR : 'tirador' ;
-
-T_DESTORNILLADOR : 'destornillador' ;
-T_MARTILLO       : 'martillo' ;
-T_ALLEN          : 'llave-allen' | 'allen' ;
-T_TALADRO        : 'taladro' ;
-T_NIVEL          : 'nivel' ;
-T_METRO          : 'metro' ;
-T_LAPIZ          : 'lapiz' | 'lápiz' ;
-
-NL        : '\r'? '\n' ;
-LINE_COMMENT
-          : '#' ~[\r\n]* NL -> skip
-          ;
-WS        : [ \t]+ -> skip ;
+// Ignorar espacios y saltos de línea
+WS             : [ \t\r\n]+ -> skip ;
