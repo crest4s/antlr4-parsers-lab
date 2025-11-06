@@ -1,0 +1,5 @@
+ITEM:LACK_VERTICAL
+1-Con LLAVE_ALEN, atornillar 12 tornillos 104323 en pieza_panel_trasero.
+2-Con LLAVE_ALEN, atornillar 2 tornillos 104323 en pieza_superior y pieza_inferior.
+3-Colocar pieza_estante_vertical en posición vertical contra la pared.
+FIN

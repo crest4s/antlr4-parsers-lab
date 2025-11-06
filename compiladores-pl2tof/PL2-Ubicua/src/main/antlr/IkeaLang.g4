@@ -6,12 +6,9 @@ manual         : itemHeader instruction+ FIN EOF ;
 
 itemHeader     : ITEM ID ;
 
-// Una instrucción puede tener varios grupos de pasos separados por punto.
 instruction    : INT '-' stepList ('.' stepList)* '.' ;
 
 stepList       : step (';' step)* ;
-
-// === Tipos de pasos ===
 
 step           : unir
                | colocar
@@ -31,16 +28,27 @@ girar          : 'Girar' direccion ;
 voltear        : 'Voltear' ;
 repetir        : 'Repetir' '(' INT ')' ;
 
-pieza          : 'pieza' ID ;
-herramienta    : ID ;
-direccion      : ID ;
+// === PIEZA: palabra clave + identificador de posición ===
 
-// === Tokens ===
+pieza          : 'pieza' ID ;
+
+// === Herramientas y direcciones como tokens fijos ===
+
+herramienta    : DESTORNILLADOR ;
+direccion      : ABAJO | LATERAL_CORTO ;
+
+// === Tokens fijos ===
 
 FIN            : 'FIN' ;
 ITEM           : 'ITEM:' ;
+
+DESTORNILLADOR : 'destornillador' ;
+
+ABAJO          : 'ABAJO' ;
+LATERAL_CORTO  : 'LATERAL_CORTO' ;
+
+// === Tokens generales ===
+
 INT            : [0-9]+ ;
 ID             : [a-zA-Z_][a-zA-Z_0-9]* ;
-
-// Ignorar espacios y saltos de línea
 WS             : [ \t\r\n]+ -> skip ;

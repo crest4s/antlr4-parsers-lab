@@ -1,0 +1,29 @@
+ITEM:HEMNES
+1-Con LLAVE_ALEN, atornillar 8 tornillos 118331 en las piezas_laterales_inferiores.
+2-Colocar 6 espigas 105590 en las piezas_travesaños_inferiores.
+3-Con LLAVE_ALEN, atornillar 2 tornillos 100001 en los soportes_medios.
+4-Con LLAVE_ALEN, atornillar 2 tornillos 100001 en los extremos de los travesaños_inferiores.
+5-Atornillar 4 tornillos 102728 en las piezas_de_union.
+6-Colocar pieza_lateral_izquierda en la base.
+7-Colocar pieza_lateral_derecha en la base.
+8-Conectar pieza_lateral_central con 2 espigas 105590.
+9-Con LLAVE_ALEN, atornillar 4 tornillos 112334 en los laterales.
+10-Con LLAVE_ALEN, atornillar 4 tornillos 118331 en los travesaños_superiores.
+11-Unir pieza_panel_vertical_central y pieza_base.
+12-Con LLAVE_ALEN, atornillar 3 tornillos 105590 en los extremos superiores.
+13-Con LLAVE_ALEN, atornillar 6 tornillos 112334 en la estructura_superior.
+14-Colocar panel_lateral_posterior.
+15-Con LLAVE_ALEN, atornillar 7 tornillos 102231 en la estructura.
+16-Colocar panel_trasero.
+17-Repetir(16).
+18-Repetir(16).
+19-Repetir(16).
+20-Colocar 3 placas_122773 con 3 tornillos 104900.
+21-Repetir(20).
+22-Colocar pieza_estantería_vertical y fijar con conector_de_seguridad.
+23-Con DESTORNILLADOR, atornillar 2 tornillos 100823 en los soportes_de_pared 117325 y fijarlos al mueble.
+24-Con LLAVE_ALEN, atornillar 4 tornillos 102271 en los refuerzos_inferiores.
+25-Colocar pieza_estante_inferior en las ranuras de soporte.
+26-Con LLAVE_ALEN, atornillar 8 tornillos 102271 en los orificios laterales; colocar 8 piezas_sujeta_estante 104504.
+27-Colocar 4 piezas_estante_superior en los niveles deseados.
+FIN

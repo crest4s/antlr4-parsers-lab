@@ -1,0 +1,16 @@
+ITEM:BILLY
+1-Colocar 4 pieza_lateral y 1 pieza_base; Insertar 16 pernos_dowel 101531 en los bordes de las piezas laterales.
+2-Con DESTORNILLADOR, atornillar 12 tornillos 110131 en las piezas_superior e inferior.
+3-Unir pieza_lateral_izquierda y pieza_base; Unir pieza_lateral_derecha y pieza_base.
+4-Con DESTORNILLADOR, atornillar 4 tornillos_cilindro 110501 en las uniones laterales.
+5-Colocar pieza_divisor_central.
+6-Colocar pieza_superior sobre las piezas_laterales.
+7-Con DESTORNILLADOR, atornillar 6 tornillos_cilindro 110501 en las uniones superiores.
+8-Alinear estructura principal; Girar estructura ABAJO.
+9-Deslizar pieza_trasera en las ranuras posteriores.
+10-Alinear pieza_trasera con bordes; Comprobar ángulos rectos.
+11-Con MARTILLO, atornillar 18 clavos 124071 en los bordes de la pieza_trasera.
+12-Con DESTORNILLADOR, fijar 2 soportes_pared 109048 y 2 tornillos_pared 109010 en la parte superior.
+13-Con DESTORNILLADOR, atornillar 16 pernos_estante 117272 en los orificios interiores.
+14-Colocar 4 pieza_estante en los soportes.
+FIN

@@ -1,0 +1,8 @@
+ITEM:LACK_HORIZONTAL
+1-Con LLAVE_ALEN, atornillar 12 tornillos 104323 en pieza_panel_trasero.
+2-Con DESTORNILLADOR, atornillar 3 tornillos 104323 en pieza_panel_superior; Repetir(2).
+3-Colocar pieza_estante_horizontal sobre la pared.
+4-Con DESTORNILLADOR, atornillar 1 tornillo 104323 en pieza_lateral_izquierda.
+5-Con DESTORNILLADOR, atornillar 1 tornillo 104323 en pieza_central.
+6-Con DESTORNILLADOR, atornillar 1 tornillo 104323 en pieza_lateral_derecha.
+FIN

@@ -1,0 +1,9 @@
+ITEM:BAGGEBO
+1-Con DESTORNILLADOR, atornillar 2 tornillos 1019123 en pieza_panel_lateral y pieza_barra_inferior.
+2-Con DESTORNILLADOR, atornillar 6 tornillos 1019123 en las uniones de pieza_panel_lateral y pieza_barra_inferior.
+3-Con DESTORNILLADOR, atornillar 8 tornillos 1019123 para fijar pieza_barra_superior.
+4-Con DESTORNILLADOR, atornillar 4 tornillos 1019123 para fijar pieza_panel_posterior_central.
+5-Con DESTORNILLADOR, atornillar 4 tornillos 12030458 para fijar pieza_tubo_lateral_superior.
+6-Con DESTORNILLADOR, atornillar 2 tornillos 1019123 y 2 tornillos 12030458 con pieza_soporte_pared.
+7-Con DESTORNILLADOR, atornillar 2 tornillos 1019123 para fijar pieza_soporte_pared en muro.
+FIN

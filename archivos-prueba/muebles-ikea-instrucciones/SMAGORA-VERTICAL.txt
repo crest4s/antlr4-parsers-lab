@@ -1,0 +1,21 @@
+ITEM:SMAGORA_VERTICAL
+1-Repetir(1).
+2-Repetir(2).
+3-Repetir(3).
+4-Repetir(4).
+5-Repetir(5).
+6-Repetir(6).
+7-Repetir(7).
+8-Repetir(8).
+9-Con destornillador, atornillar 2 soportes 117313 en la parte superior interior del módulo vertical.
+10-Con destornillador, ajustar 2 tornillos 110646 (profundidad 1 cm) para fijar los soportes a la pared.
+11-Colocar 2 piezas 105693 sobre los soportes 117313 y asegurar con destornillador.
+12-Encajar módulo vertical con módulo horizontal; deslizar hasta que las uniones coincidan.
+13-Con destornillador, ajustar 2 tornillos 117313 en la parte posterior superior del conjunto.
+14-Colocar pieza_lateral_derecha.
+15-Repetir(14).
+16-Colocar pieza_lateral_izquierda.
+17-Con destornillador, atornillar 2 tornillos 110646 (máx 25 mm) para fijar lateral derecho (profundidad 10 mm).
+18-Repetir(16).
+19-Con destornillador, ajustar 2 piezas 105693 sobre los soportes 117313 del lateral izquierdo y deslizar pieza_tapa hasta encajar.
+FIN

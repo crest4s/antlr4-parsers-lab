@@ -8,3 +8,5 @@ ITEM:KNAGGLIG_SMALL
 7-Repetir (5).
 8-Colocar pieza lateral_corto_alto; Con destornillador, atornillar 4 tornillos 108560.
 FIN
+
+
