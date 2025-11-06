@@ -1,4 +1,4 @@
-grammar IKEA;
+grammar IkeaLang;
 
 // -------- Parser --------
 program

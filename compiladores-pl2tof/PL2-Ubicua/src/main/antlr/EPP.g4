@@ -1,92 +1,148 @@
+// ====================================================================
+// EPP.g4
+// Gramática extendida del lenguaje E++ (Nivel medio)
+// ====================================================================
+//
+// Basada en la versión mínima que cumple el nivel básico (apartado 1.2).
+// Extensiones incluidas:
+//   🔹 [1] Operadores aritméticos adicionales (*, /, %)
+//   🔹 [3] Literales booleanos (verdadero, falso)
+//   🔹 [4] Instrucción de lectura (leer)
+//   🔹 [7] Bucle 'mientras -> ... terminar'
+//
+// ====================================================================
+
 grammar EPP;
 
-// -------- PARSER --------
+// ====================================================================
+// --------------------------- PARSER --------------------------------
+// ====================================================================
 
-// Un programa son instrucciones o líneas vacías
-program
-  : (stmt | NL)* EOF
-  ;
+programa
+    : (instruccion | comentario)* EOF
+    ;
 
-// Tipos de sentencias admitidas
-stmt
-  : assignInit           // asignar x = ...
-  | assign               // x = ...
-  | printStmt            // mostrar ...
-  | ifStmt               // ??? cond si -> ... (no -> ...)? terminar
-  ;
+// --------------------------------------------------------------------
 
-// Asignación con "asignar" (inicialización)
-assignInit
-  : ASIGNAR ID '=' expr EOL
-  ;
+instruccion
+    : asignacion
+    | mostrar
+    | condicional
+    | leer                      // 🔹 [4] Nueva instrucción de entrada
+    | mientras                  // 🔹 [7] Nueva instrucción de bucle
+    ;
 
-// Asignación normal
-assign
-  : ID '=' expr EOL
-  ;
+// --------------------------------------------------------------------
 
-// Mostrar algo por pantalla
-printStmt
-  : MOSTRAR expr EOL
-  ;
+asignacion
+    // Acepta inicialización y reasignación
+    : ( 'asignar' ID '=' expresion
+      | ID '=' expresion
+      ) FINLINEA
+    ;
 
-// Estructura condicional (nivel medio)
-ifStmt
-  : COND SI_ARROW block (NO_ARROW block)? TERMINAR
-  ;
+// --------------------------------------------------------------------
 
-// Condición entre ???
-COND
-  : '???' expr compOp expr '???'
-  ;
+mostrar
+    : 'mostrar' expresion FINLINEA
+    ;
 
-// Bloques de sentencias (pueden contener más sentencias)
-block
-  : (stmt | NL)*
-  ;
+// --------------------------------------------------------------------
 
-// Expresiones aritméticas simples (+, -)
-expr
-  : expr '+' term   # add
-  | expr '-' term   # sub
-  | term            # toTerm
-  ;
+leer                             // 🔹 [4] Leer variable desde entrada
+    : 'leer' ID FINLINEA
+    ;
 
-term
-  : atom
-  ;
+// --------------------------------------------------------------------
 
-atom
-  : INT
-  | FLOAT
-  | STRING
-  | ID
-  | '(' expr ')'
-  ;
+mientras                         // 🔹 [7] Estructura de bucle
+    : 'mientras' expresion '->' bloque 'terminar'
+    ;
 
-// Operadores de comparación (nivel medio)
-compOp
-  : '==' | '!=' | '>' | '<' | '>=' | '<='
-  ;
+// --------------------------------------------------------------------
 
-// -------- LEXER --------
+condicional
+    : expresion CONDICION 'si' '->' bloque
+      ( 'no' '->' bloque )?
+      'terminar'
+    ;
 
-// Palabras clave
-ASIGNAR   : 'asignar' ;
-MOSTRAR   : 'mostrar' ;
-SI_ARROW  : 'si' ' ' '->' ;
-NO_ARROW  : 'no' ' ' '->' ;
-TERMINAR  : 'terminar' ;
-EOL       : ';P' ;              // fin de instrucción obligatorio
+// --------------------------------------------------------------------
 
-// Identificadores y literales
-ID        : [a-zA-Z_][a-zA-Z_0-9]* ;
-INT       : [0-9]+ ;
-FLOAT     : [0-9]+ '.' [0-9]+ ;
-STRING    : '"' ('\\"' | ~["\r\n])* '"' ;
+bloque
+    : (instruccion | comentario)*
+    ;
 
-// Saltos de línea y comentarios
-NL        : '\r'? '\n' ;
-LINE_COMMENT
-          : '#' ~[\r\n]* NL -> skip ;   // solo en su propia línea
-WS        : [ \t]+ -> skip ;
+// --------------------------------------------------------------------
+// Expresiones y comparaciones
+// --------------------------------------------------------------------
+
+expresion
+    : comparacion
+    ;
+
+comparacion
+    : aritmetica ( (MAYOR | MENOR | IGUAL | DIFERENTE | MAYORIGUAL | MENORIGUAL) aritmetica )?
+    ;
+
+// 🔹 [1] Ampliación aritmética: ahora admite *, / y %
+aritmetica
+    : termino ( (MAS | MENOS | POR | DIV | MOD) termino )*
+    ;
+
+termino
+    : NUM
+    | STRING
+    | ID
+    | VERDADERO                 // 🔹 [3] Literal booleano
+    | FALSO                     // 🔹 [3] Literal booleano
+    | '(' expresion ')'
+    ;
+
+comentario
+    : COMENTARIO
+    ;
+
+// ====================================================================
+// --------------------------- LEXER ---------------------------------
+// ====================================================================
+
+CONDICION : '???';
+FINLINEA  : ';P';
+
+// --------------------------------------------------------------------
+// Operadores aritméticos y relacionales
+MAS        : '+';
+MENOS      : '-';
+POR        : '*';              // 🔹 [1]
+DIV        : '/';              // 🔹 [1]
+MOD        : '%';              // 🔹 [1]
+MAYOR      : '>';
+MENOR      : '<';
+IGUAL      : '==';
+DIFERENTE  : '!=';
+MAYORIGUAL : '>=';
+MENORIGUAL : '<=';
+
+// --------------------------------------------------------------------
+// Tipos de datos y literales
+NUM        : DIGITO+ ('.' DIGITO+)?;
+STRING     : '"' (~["\r\n])* '"';
+ID         : [a-zA-Z_][a-zA-Z_0-9]*;
+
+// 🔹 [3] Literales booleanos
+VERDADERO  : 'verdadero';
+FALSO      : 'falso';
+
+// --------------------------------------------------------------------
+// Comentarios y espacios
+COMENTARIO : '#' ~[\r\n]*;
+WS         : [ \t\r\n]+ -> skip;
+
+// --------------------------------------------------------------------
+// Fragmentos auxiliares
+fragment DIGITO : [0-9];
+
+// ====================================================================
+// FIN DE LA GRAMÁTICA
+// ====================================================================
