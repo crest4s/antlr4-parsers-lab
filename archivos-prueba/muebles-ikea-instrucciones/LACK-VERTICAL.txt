@@ -1,5 +1,5 @@
 ITEM:LACK_VERTICAL
-1-Con LLAVE_ALEN, atornillar 12 tornillos 104323 en pieza_panel_trasero.
-2-Con LLAVE_ALEN, atornillar 2 tornillos 104323 en pieza_superior y pieza_inferior.
-3-Colocar pieza_estante_vertical en posición vertical contra la pared.
+1-Unir pieza lateral y 6 piezas balda; Con llave_allen, atornillar 12 tornillos 104323 en pieza lateral.
+2-Colocar pieza balda_inferior en pieza lateral; Con destornillador, atornillar 2 tornillos 104323 y placa_metal en pieza balda_inferior.
+3-Fijar en pared; Nivelar; Marcar con lápiz en pieza mueble en superior; Con destornillador, atornillar tornillo 104323 en pieza mueble.
 FIN

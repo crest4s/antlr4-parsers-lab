@@ -1,0 +1,22 @@
+ITEM:SMAGORA_VERTICAL_UNION
+1-Con destornillador, atornillar 16 tornillos 119371 en pieza base y pieza superior.
+2-Insertar 8 espigas 101354 en 2 piezas lateral; Unir pieza base y 2 piezas lateral.
+3-Repetir(2).
+4-Con destornillador, atornillar 8 tornillos 119252 4 piezas lateral en inferior.
+5-Deslizar pieza panel_trasero en ranuras.
+6-Unir pieza superior y pieza mueble.
+7-Con destornillador, atornillar 8 tornillos 119252 en 4 piezas lateral en superior.
+8-Colocar 4 tapas 123263 en pieza mueble en inferior.
+9-Con destornillador, atornillar 2 tornillos 118331 en pieza mueble_auxiliar.
+10-Insertar 2 espigas 101345 en pieza madera_soporte.
+11-Unir pieza madera_soporte y pieza mueble_auxiliar.
+12-Con destornillador, atornillar 2 tornillos 11952 en pieza madera_soporte en trasera.
+13-Con destornillador, atornillar 4 tornillos 107716 y 2 escuadras 117313 en pieza mueble en superior.
+14-Unir pieza mueble_auxiliar y pieza mueble.
+15-Marcar con lápiz en mueble_auxiliar.
+16-Sacar mueble.
+17-Con destornillador, atornillar 2 tornillos 174529 y 2 arandelas 119322 en pieza madera_soporte.
+18-Repetir (14).
+19-Colocar 2 placas_metal y 2 embellecedores en pieza mueble en superior.
+FIN
+

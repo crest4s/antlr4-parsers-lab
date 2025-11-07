@@ -1,0 +1,17 @@
+ITEM:FLYSTA_HORIZONTAL
+1-Unir pieza lateral y pieza base; Con llave_allen, atornillar 2 tornillos 101345.
+2-Insertar 2 espigas 101345 en pieza divisor; Unir pieza divisor y pieza base.
+3-Insertar 2 espigas 101345 en pieza balda; Unir pieza divisor y pieza lateral.
+4-Insertar 2 espigas 101345 en pieza balda.
+5-Unir pieza divisor y pieza balda.
+6-Repetir (3).
+7-Repetir (4).
+8-Repetir (5).
+9-Repetir (3).
+10-Repetir (4).
+11-Repetir (5).
+12-Insertar 8 espigas 101345 en 3 piezas balda en extremo y pieza divisor en extremo.
+13-Unir pieza lateral y pieza mueble.
+14-Unir pieza tapa_superior y pieza mueble; Con llave_allen, atornillar 6 tornillos 100523 en pieza mueble.
+15-Colocar 8 pegatinas_antideslizantes 125502 en pieza mueble en base; Voltear.
+FIN

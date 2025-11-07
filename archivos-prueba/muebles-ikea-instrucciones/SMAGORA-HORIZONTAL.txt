@@ -1,14 +1,13 @@
-ITEM:SMAGORA_MURAL
-1-Con destornillador, atornillar 16 tornillos 119371 en pieza_base y unir con pieza_lateral_1, pieza_lateral_2 y pieza_lateral_3.
-2-Colocar pieza_divisoria_1 y pieza_divisoria_2; unir con pieza_base mediante 8 pernos 101245.
+ITEM:SMAGORA_HORIZONTAL
+1-Con destornillador, atornillar 16 tornillos 119371 en pieza base y pieza superior.
+2-Insertar 8 espigas 101354 en 2 piezas lateral; Unir pieza base y 2 piezas lateral.
 3-Repetir(2).
-4-Con destornillador, atornillar 8 tornillos 119252 en uniones de las piezas divisorias.
-5-Colocar pieza_trasera_1 y pieza_trasera_2 sobre las divisorias.
-6-Colocar pieza_superior sobre el conjunto.
-7-Con destornillador, atornillar 8 tornillos 119252 en la parte superior.
-8-Colocar 4 tapas 123263 en la parte inferior del mueble.
-9-Con destornillador, atornillar 2 soportes 117313 en la parte superior interior del módulo.
-10-Con destornillador, ajustar 2 tornillos 110646 para fijar los soportes a la pared (profundidad 1 cm).
-11-Colocar 2 piezas 105693 sobre los soportes y asegurar con destornillador.
-12-Colocar módulo horizontal en pared mediante los soportes fijados.
+4-Con destornillador, atornillar 8 tornillos 119252 4 piezas lateral en inferior.
+5-Deslizar pieza panel_trasero en ranuras.
+6-Unir pieza superior y pieza mueble.
+7-Con destornillador, atornillar 8 tornillos 119252 en 4 piezas lateral en superior.
+8-Con destornillador, atornillar 2 tornillos 107716 y 2 escuadras 115763 en 2 piezas lateral.
+9-Nivelar; Fijar en pared; Marcar con lápiz en pared.
+10-Con destornillador, atornillar 2 tornillos 110646 en pared.
+11-Colocar pieza mueble en pared; Colocar 2 placas_metal y 2 embellecedores en pieza mueble en superior.
 FIN
