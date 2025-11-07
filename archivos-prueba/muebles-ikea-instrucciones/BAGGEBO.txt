@@ -1,9 +1,9 @@
 ITEM:BAGGEBO
 1-Unir pieza panel_lateral y pieza barra_inferior; Con destornillador, atornillar 2 tornillos 10119123.
-2-Repetir (1) x3.
+2-Repetir (1) x 3.
 3-Colocar pieza barra_superior; Con destornillador, atornillar 8 tornillos 1019123.
 4-Colocar pieza panel_posterior_central; Con destornillador, atornillar 4 tornillos 1019123.
-5-Con destornillador, atornillar 4 tornillos 12030458 en pieza barra_inferior y pieza barra superior.
+5-Con destornillador, atornillar 4 tornillos 12030458 en pieza barra_inferior y pieza barra_superior.
 6-Con destornillador, atornillar 2 tornillos 1019123, 2 arandelas 12030458 y 2 escuadras 10062215 en pieza panel_lateral.
 7-Fijar en pared; Con destornillador, atornillar 2 tornillos 1019123.
 FIN

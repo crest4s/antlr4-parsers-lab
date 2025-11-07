@@ -1,6 +1,6 @@
 ITEM:LACK_HORIZONTAL
 1-Unir pieza lateral y 7 piezas balda; Con llave_allen, atornillar 14 tornillos 104323 en pieza lateral.
-2-Con destornillador, atornillar 9 tornillos 104323 y 3 placa_metal en 3 piezas balda
+2-Con destornillador, atornillar 9 tornillos 104323 y 3 placa_metal en 3 piezas balda.
 3-Fijar en pared; Con destornillador, atornillar tornillo 104323 en pieza mueble en lateral_derecho.
 4-Nivelar; Con destornillador, atornillar tornillo 104323 en pieza mueble en lateral_izquierdo.
 5-Con destornillador, atornillar tornillo 104323 en pieza mueble en centro.

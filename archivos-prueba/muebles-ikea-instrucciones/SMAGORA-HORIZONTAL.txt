@@ -2,7 +2,7 @@ ITEM:SMAGORA_HORIZONTAL
 1-Con destornillador, atornillar 16 tornillos 119371 en pieza base y pieza superior.
 2-Insertar 8 espigas 101354 en 2 piezas lateral; Unir pieza base y 2 piezas lateral.
 3-Repetir(2).
-4-Con destornillador, atornillar 8 tornillos 119252 4 piezas lateral en inferior.
+4-Con destornillador, atornillar 8 tornillos 119252 en 4 piezas lateral en inferior.
 5-Deslizar pieza panel_trasero en ranuras.
 6-Unir pieza superior y pieza mueble.
 7-Con destornillador, atornillar 8 tornillos 119252 en 4 piezas lateral en superior.
