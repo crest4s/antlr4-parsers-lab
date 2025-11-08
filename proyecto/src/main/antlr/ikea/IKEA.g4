@@ -1,109 +1,205 @@
 grammar IKEA;
-@header {
-package ikea;
-}
 
-// === Reglas principales ===
+@header { package ikea; }
 
-manual         : itemHeader instruction+ FIN EOF ;
+// =======================================================
+//  REGLAS PRINCIPALES
+// =======================================================
+manual
+    : itemHeader instruction+ FIN EOF
+    ;
 
-itemHeader     : ITEM ID ;
+itemHeader
+    : ITEM ID
+    ;
 
-instruction    : INT '-' stepList ('.' stepList)* '.' ;
+instruction
+    : INT '-' stepList ('.' stepList)* '.'
+    ;
 
-stepList       : step (';' step)* ;
+stepList
+    : step (';' step)*
+    ;
 
-step           : unir
-               | colocar
-               | atornillar
-               | insertar
-               | clavar
-               | marcar
-               | desplegar
-               | deslizar
-               | sacar
-               | conHerramienta (atornillar | clavar | insertar | colocar)
-               | girar
-               | voltear
-               | nivelar
-               | repetir
-               | fijar
-               ;
+// =======================================================
+//  PASOS / ACCIONES
+// =======================================================
+step
+    : unir                      #accionUnir
+    | colocar                   #accionColocar
+    | atornillar                #accionAtornillar
+    | insertar                  #accionInsertar
+    | clavar                    #accionClavar
+    | marcar                    #accionMarcar
+    | desplegar                 #accionDesplegar
+    | deslizar                  #accionDeslizar
+    | sacar                     #accionSacar
+    | conHerramienta (atornillar | clavar | insertar | colocar) #accionConHerramienta
+    | girar                     #accionGirar
+    | voltear                   #accionVoltear
+    | nivelar                   #accionNivelar
+    | repetir                   #accionRepetir
+    | fijar                     #accionFijar
+    ;
 
-// === Reglas de acciones ===
+// =======================================================
+//  DEFINICIÓN DE ACCIONES
+// =======================================================
+unir
+    : 'Unir' listaPiezas
+    ;
 
-// 'Unir' admite cualquier combinación de piezas separadas por comas o 'y'
-unir           : 'Unir' listaPiezas ;
+colocar
+    : 'Colocar' (listaComponentes | listaPiezas)
+      ('en' (piezaConZona | listaPiezas | zona))?
+    ;
 
-// colocar admite colocar piezas o componentes en piezas o zonas, y soporta anidación de 'en'
-colocar        : 'Colocar' (listaComponentes | listaPiezas) ( 'en' (piezaConZona | listaPiezas | zona) )? ;
+fijar
+    : 'Fijar' 'en' zona
+    ;
 
-// fijar siempre va seguido de 'en' + zona
-fijar          : 'Fijar' 'en' zona ;
+atornillar
+    : ('Atornillar' | 'atornillar')
+      listaComponentes ('en' (piezaConZona | listaPiezas | zona))?
+    ;
 
-// atornillar/insertar/clavar con múltiples componentes y ubicaciones/zona, admiten anidación de 'en'
-atornillar     : 'atornillar' listaComponentes ( 'en' (piezaConZona | listaPiezas | zona) )? ;
-insertar       : 'Insertar'  listaComponentes ( 'en' (piezaConZona | listaPiezas | zona) )? ;
-clavar         : 'clavar'    listaComponentes ( 'en' (piezaConZona | listaPiezas | zona) )? ;
+insertar
+    : ('Insertar' | 'insertar')
+      listaComponentes ('en' (piezaConZona | listaPiezas | zona))?
+    ;
 
-// acciones adicionales
-marcar         : 'Marcar' 'con' herramienta 'en' (listaPiezas | zona) ;
-desplegar      : 'Desplegar' pieza ;
-deslizar       : 'Deslizar' pieza 'en' zona ;
-sacar          : 'Sacar' (pieza | ID) ;
-nivelar        : 'Nivelar' ;
+clavar
+    : ('Clavar' | 'clavar')
+      listaComponentes ('en' (piezaConZona | listaPiezas | zona))?
+    ;
 
-conHerramienta : 'Con' herramienta ',' ;
+marcar
+    : 'Marcar' 'con' herramienta 'en' (listaPiezas | zona)
+    ;
 
-girar          : 'Girar' direccion ;
-voltear        : 'Voltear' ;
+desplegar
+    : 'Desplegar' pieza
+    ;
 
-// === Repetir con referencia de paso y número de repeticiones ===
-repetir        : 'Repetir' '(' paso=INT ')' ( X veces=INT )? ;
+deslizar
+    : 'Deslizar' pieza 'en' zona
+    ;
 
-// === COMPONENTES Y PIEZAS ===
+sacar
+    : 'Sacar' (pieza | ID)
+    ;
 
-componente      : (INT)? tipo (INT | ID)? ;
-// tipo ahora admite identificadores generales (ej: pegatinas_antideslizantes, placas_metal, etc.)
-tipo            : ID ;
+nivelar
+    : 'Nivelar'
+    ;
 
-// listas más estrictas: comas o 'y' opcionales
-listaComponentes : componente ( (',' | 'y') componente )* ;
+conHerramienta
+    : 'Con' herramienta ','
+    ;
 
-// PIEZA con cantidad opcional y posible zona interna anidada
-pieza          : (INT 'piezas' ID (ID)* ('en' zona)?) | ('pieza' ID (ID)* ('en' zona)?) ;
-piezaConZona   : pieza ('en' zona)? ;
+girar
+    : 'Girar' direccion
+    ;
 
-// lista de piezas: admite comas o 'y' sin ambigüedad
-listaPiezas    : pieza ( (',' | 'y') pieza )* ;
+voltear
+    : 'Voltear'
+    ;
 
-// === ZONAS ===
+repetir
+    : 'Repetir' '(' paso=INT ')' (X veces=INT)?
+    ;
 
-zona           : ID ;
+// =======================================================
+//  COMPONENTES Y PIEZAS
+// =======================================================
 
-// === Herramientas y direcciones como tokens fijos ===
+componente
+    : cantidad? tipo codigo?
+    ;
 
-herramienta    : DESTORNILLADOR | MARTILLO | LAPIZ | LLAVE_ALLEN ;
-direccion      : ABAJO | LATERAL_CORTO ;
+cantidad
+    : INT
+    ;
 
-// === Tokens fijos ===
+codigo
+    : INT | ID
+    ;
 
-FIN            : 'FIN' ;
-ITEM           : 'ITEM:' ;
+tipo
+    : COMPONENTE
+    | ID
+    ;
 
-DESTORNILLADOR : 'destornillador' ;
-MARTILLO       : 'martillo' ;
-LAPIZ          : 'lápiz' | 'lapiz' ;
-LLAVE_ALLEN    : 'llave_allen' ;
+COMPONENTE
+    : [tT] 'ornillo' 's'?
+    | [eE] 'spiga' 's'?
+    | [pP] 'laca' 's'?
+    | [aA] 'randela' 's'?
+    | [eE] 'scuadra' 's'?
+    | [sS] 'oporte' 's'?
+    | [tT] 'aco' 's'?
+    | [lL] 'istón' ('es')?
+    | [bB] 'alda' 's'?
+    | [tT] 'raviesa' 's'?
+    | [pP] 'anel' ('es')?
+    ;
+
+listaComponentes
+    : componente ( (',' | 'y') componente )*
+    ;
+
+// Acepta también nombres de COMPONENTE como nombre de pieza (p.ej. balda)
+pieza
+    : (INT 'piezas' (ID | COMPONENTE) (ID)* ('en' zona)?)
+    | ('pieza' (ID | COMPONENTE) (ID)* ('en' zona)?)
+    ;
+
+piezaConZona
+    : pieza ('en' zona)?
+    ;
+
+listaPiezas
+    : pieza ( (',' | 'y') pieza )*
+    ;
+
+// 🔧 CAMBIO: permite ID **o** COMPONENTE como zona
+zona
+    : ID
+    | COMPONENTE
+    ;
+
+// =======================================================
+//  HERRAMIENTAS
+// =======================================================
+herramienta
+    : DESTORNILLADOR
+    | MARTILLO
+    | LAPIZ
+    | LLAVE_ALLEN
+    ;
+
+DESTORNILLADOR : [dD] 'estornillador' ;
+MARTILLO       : [mM] 'artillo' ;
+LAPIZ          : [lL] ('ápiz' | 'apiz') ;
+LLAVE_ALLEN    : [lL] 'lave_allen' ;
+
+// =======================================================
+//  DIRECCIONES
+// =======================================================
+direccion
+    : ABAJO
+    | LATERAL_CORTO
+    ;
 
 ABAJO          : 'ABAJO' ;
 LATERAL_CORTO  : 'LATERAL_CORTO' ;
 
-X              : 'x' ;
-
-// === Tokens generales ===
-
-INT            : [0-9]+ ;
-ID             : [a-zA-Z_áéíóúÁÉÍÓÚñÑ][a-zA-Z_0-9áéíóúÁÉÍÓÚñÑ]* ;
-// Espacios ampliados para aceptar todos los tipos de espacio Unicode y BOM ocultos
-WS             : [ \t\r\n\u00A0\u2000-\u200B\u202F\u205F\u3000\uFEFF\u200C\u200D\u200E\u200F\u2060]+ -> skip ;
+// =======================================================
+//  TOKENS FINALES
+// =======================================================
+FIN  : 'FIN' ;
+ITEM : 'ITEM:' ;
+X    : 'x' ;
+INT  : [0-9]+ ;
+ID   : [a-zA-Z_áéíóúÁÉÍÓÚñÑ][a-zA-Z_0-9áéíóúÁÉÍÓÚñÑ]* ;
+WS   : [ \t\r\n\u00A0\u2000-\u200B\u202F\u205F\u3000\uFEFF\u200C\u200D\u200E\u200F\u2060]+ -> skip ;
