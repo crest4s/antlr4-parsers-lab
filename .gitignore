@@ -1,5 +1,14 @@
 .gradle
+# Ignorar todo el directorio build/
 build/
+
+# Pero permitir la carpeta generada por ANTLR
+!build/generated-src/
+!build/generated-src/antlr/
+!build/generated-src/antlr/main/
+!build/generated-src/antlr/main/**
+
+
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
