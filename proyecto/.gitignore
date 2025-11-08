@@ -1,0 +1,98 @@
+.gradle
+
+# Ignorar todo lo de build por defecto
+/build/*
+build/tmp/
+build/classes/
+build/resources/
+build/reports/
+build/libs/
+build/test-results/
+build/reports/
+build/reports/tests/
+build/reports/jacoco/
+build/reports/tests/test/
+build/reports/jacoco/test/
+build/reports/coverage/
+build/reports/coverage/test/
+build/reports/coverage/testCoverage/
+build/reports/coverage/integrationTestCoverage/
+build/reports/coverage/integrationTest/
+build/reports/coverage/integrationTestCoverage/
+build/reports/coverage/unitTest/
+build/reports/coverage/unitTestCoverage/
+build/reports/coverage/unitTestCoverage/test/
+build/reports/coverage/unitTestCoverage/integrationTest/
+build/reports/coverage/unitTestCoverage/unitTest/
+build/reports/coverage/unitTestCoverage/unitTest/test/
+build/reports/coverage/unitTestCoverage/unitTest/integrationTest/
+
+
+# Pero mantener el camino hasta main
+!build/generated-src/
+!build/generated-src/antlr/
+!build/generated-src/antlr/main/
+!build/generated-src/antlr/main/**
+
+# Ignorar otros directorios comunes de build/gradle
+.gradle/
+.idea/
+out/
+reports/
+tmp/
+
+# Archivos binarios y temporales comunes
+*.class
+*.log
+*.tmp
+*.jar
+*.war
+*.ear
+
+# Archivos de IDE comunes
+.idea/
+.vscode/
+*.iml
+
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+.kotlin
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
