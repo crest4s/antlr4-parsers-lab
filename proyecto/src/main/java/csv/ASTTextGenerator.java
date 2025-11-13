@@ -56,6 +56,8 @@ public class ASTTextGenerator {
         // Omitir nodos irrelevantes
         if (nodeText.equals("<EOF>")) return;
         if (nodeText.equals(";")) return;
+        if (nodeText.equals(",")) return;
+        if (nodeText.equals("|")) return;
         if (nodeText.trim().isEmpty()) return;
 
         // Si el nodo es un campo con contenido, imprimirlo

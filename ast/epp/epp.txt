@@ -1,48 +1,15 @@
-programa
-  comentario
-    # Inicializacion de variable
-  instruccion
-    asignacion
-      asignar
-      a
-      =
-      expresion
-        20
-      ;P
-  comentario
-    # if-else sencillo 
-  instruccion
-    condicional
-      expresion
-        expresion
-          a
-        operadorComparacion
-          >
-        expresion
-          2
-      ???
-      si
-      ->
-      bloque
-        instruccion
-          asignacion
-            a
-            =
-            expresion
-              expresion
-                5
-              operadorAditivo
-                -
-              expresion
-                2
-            ;P
-      terminar
-  comentario
-    # imprimir por pantalla  
-  instruccion
-    mostrar
-      mostrar
-      expresion
-        a
-      ;P
-  <EOF>
+Programa:
+  Comentario: Inicializacion de variable
+  Asignación:
+    Variable: a
+    Valor: 20
+  Comentario: if-else sencillo
+  Condicional:
+    Condición: a > 2
+    BloqueSi:
+      Asignación:
+        Variable: a
+        Valor: 5 - 2
+  Comentario: imprimir por pantalla
+  Mostrar:
+    Expresión: a
