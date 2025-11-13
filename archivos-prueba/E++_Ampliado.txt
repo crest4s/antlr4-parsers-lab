@@ -1,0 +1,45 @@
+# PROGRAMA DE PRUEBA E++ CON AMPLIACIONES
+
+# Inicializacion de variables
+asignar i = 10;P
+asignar limite = 0;P
+asignar nombre = " ";P
+
+# Lectura de entrada: Ampliacion 'leer'
+mostrar "Introduce un limite para el contador (ej: 5): ";P
+leer limite;P
+
+# Bucle 'mientras': Ampliacion 'mientras'
+mientras (i > limite) ->
+    mostrar "Contador actual: ";P
+    mostrar i;P
+    
+    # Operacion extendida: Multiplicacion
+    asignar aux = i * 1;P
+    
+    # Actualizar contador (Resta es basica)
+    asignar i = i - 2;P
+    
+    # Condicional anidado dentro del bucle
+    i < 5 ???
+    si ->
+        mostrar "Cerca del final.";P
+    terminar
+terminar
+
+# Lectura de cadena
+mostrar "Introduce tu nombre: ";P
+leer nombre;P
+
+# Condicional de comparacion con cadena
+nombre == "Marta" ???
+si ->
+    mostrar "Hola Marta.";P
+no ->
+    mostrar "Nombre no reconocido.";P
+terminar
+
+# Operacion final extendida: Division y parentesis
+asignar resultado = (100 / 2) + i;P
+mostrar "Resultado final (100/2 + contador): ";P
+mostrar resultado;P
