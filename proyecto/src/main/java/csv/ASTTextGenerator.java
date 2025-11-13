@@ -25,7 +25,7 @@ public class ASTTextGenerator {
 
         // 4️⃣ Generar texto a partir del árbol
         StringBuilder sb = new StringBuilder();
-        printTree(tree, parser, sb, 0);
+        printTreeFiltered(tree, parser, sb, 0);
 
         // 5️⃣ Guardar en archivo
         try (FileWriter writer = new FileWriter(outputPath)) {
@@ -47,6 +47,36 @@ public class ASTTextGenerator {
         // Recorrer los hijos recursivamente
         for (int i = 0; i < tree.getChildCount(); i++) {
             printTree(tree.getChild(i), parser, sb, indent + 1);
+        }
+    }
+
+    private static void printTreeFiltered(ParseTree tree, CSVParser parser, StringBuilder sb, int indent) {
+        String nodeText = Trees.getNodeText(tree, parser);
+
+        // Omitir nodos irrelevantes
+        if (nodeText.equals("<EOF>")) return;
+        if (nodeText.equals(";")) return;
+        if (nodeText.trim().isEmpty()) return;
+
+        // Si el nodo es un campo con contenido, imprimirlo
+        if (tree instanceof TerminalNode) {
+            String text = tree.getText().trim();
+
+            // Ignorar tokens estructurales como coma, punto y coma, saltos, etc.
+            if (!text.equals(";") && !text.equals("<EOF>"))
+                sb.append("  ".repeat(indent)).append(text).append("\n");
+
+            return;
+        }
+
+        // Si el nodo es una regla 'fila'
+        if (parser.getRuleNames()[((RuleContext) tree).getRuleIndex()].equals("fila")) {
+            sb.append("Fila:\n");
+        }
+
+        // Recorrer hijos
+        for (int i = 0; i < tree.getChildCount(); i++) {
+            printTreeFiltered(tree.getChild(i), parser, sb, indent + 1);
         }
     }
 }
