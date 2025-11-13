@@ -1,0 +1,60 @@
+csv
+  fila
+    campo
+      Nombre
+    ;
+    campo
+       Frase
+    ;
+    campo
+       Tipo
+    ;
+    campo
+       Lanzamiento
+  
+
+  fila
+    campo
+      Aatrox
+    ;
+    campo
+       the Darkin Blade
+    ;
+    campo
+       Juggernaut
+    ;
+    campo
+       2013-06-13
+  
+
+  fila
+    campo
+      Ahri
+    ;
+    campo
+       the Nine-Tailed Fox
+    ;
+    campo
+       Burst
+    ;
+    campo
+       2011-12-14
+  
+
+  fila
+    campo
+      Akali
+    ;
+    campo
+       the Rogue Assassin
+    ;
+    campo
+       Assassin
+    ;
+    campo
+       2010-05-11
+  
+
+  fila
+    campo
+  <EOF>

@@ -1,0 +1,48 @@
+programa
+  comentario
+    # Inicializacion de variable
+  instruccion
+    asignacion
+      asignar
+      a
+      =
+      expresion
+        20
+      ;P
+  comentario
+    # if-else sencillo 
+  instruccion
+    condicional
+      expresion
+        expresion
+          a
+        operadorComparacion
+          >
+        expresion
+          2
+      ???
+      si
+      ->
+      bloque
+        instruccion
+          asignacion
+            a
+            =
+            expresion
+              expresion
+                5
+              operadorAditivo
+                -
+              expresion
+                2
+            ;P
+      terminar
+  comentario
+    # imprimir por pantalla  
+  instruccion
+    mostrar
+      mostrar
+      expresion
+        a
+      ;P
+  <EOF>
