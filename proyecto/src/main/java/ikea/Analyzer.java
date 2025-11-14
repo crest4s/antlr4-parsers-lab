@@ -10,21 +10,22 @@ import java.util.*;
 import java.io.IOException;
 
 /**
- * Analizador para la gramática IKEA.g4
- * --------------------------------------------------
- * Funcionalidad:
- *  ✅ Lee un manual IKEA (archivo de texto).
- *  ✅ Procesa los pasos con ANTLR4.
- *  ✅ Construye una tabla de símbolos (herrajes y herramientas).
- *  ✅ Muestra las acciones, herrajes y herramientas por paso y totales.
+ * Clase `Analyzer` que analiza un manual IKEA utilizando la gramática `IKEA.g4`.
  *
- * Compatible con gramática IKEA.g4 (última versión con alias paso/veces en "repetir").
+ * Funcionalidades:
+ * - Lee un archivo de texto que contiene un manual IKEA.
+ * - Procesa los pasos del manual utilizando ANTLR4.
+ * - Construye una tabla de símbolos que incluye herrajes y herramientas.
+ * - Muestra las acciones, herrajes y herramientas por paso y totales.
  */
 public class Analyzer {
 
-    // --------------------------------------------------
-    // MAIN
-    // --------------------------------------------------
+    /**
+     * Método principal que inicia el análisis del manual IKEA.
+     * Solicita al usuario la ruta del archivo, procesa el contenido y genera un reporte.
+     *
+     * @param args Argumentos de línea de comandos (no utilizados).
+     */
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.print("Introduce la ruta del archivo del manual IKEA: ");
@@ -64,9 +65,10 @@ public class Analyzer {
         }
     }
 
-    // --------------------------------------------------
-    // TABLA DE SÍMBOLOS
-    // --------------------------------------------------
+    /**
+     * Clase interna `SymbolTable` que representa la tabla de símbolos.
+     * Almacena las acciones, herrajes y herramientas por paso y totales.
+     */
     public static class SymbolTable {
         private final Map<Integer, List<String>> stepActions = new LinkedHashMap<>();
         private final Map<String, Integer> components = new LinkedHashMap<>();
@@ -75,26 +77,56 @@ public class Analyzer {
         private final Map<Integer, Map<String, Integer>> componentsByStep = new LinkedHashMap<>();
         private final Map<Integer, LinkedHashSet<String>> toolsByStep = new LinkedHashMap<>();
 
+        /**
+         * Agrega una acción a un paso específico.
+         *
+         * @param step   Número del paso.
+         * @param action Acción realizada en el paso.
+         */
         public void addAction(int step, String action) {
             stepActions.computeIfAbsent(step, k -> new ArrayList<>()).add(action);
         }
 
+        /**
+         * Agrega una herramienta a la lista total de herramientas.
+         *
+         * @param tool Nombre de la herramienta.
+         */
         public void addTool(String tool) {
             if (tool == null || tool.isEmpty()) return;
             tools.add(tool);
         }
 
+        /**
+         * Agrega una herramienta a un paso específico.
+         *
+         * @param step Número del paso.
+         * @param tool Nombre de la herramienta.
+         */
         public void addTool(int step, String tool) {
             if (tool == null || tool.isEmpty()) return;
             addTool(tool);
             toolsByStep.computeIfAbsent(step, k -> new LinkedHashSet<>()).add(tool);
         }
 
+        /**
+         * Agrega un componente a la lista total de componentes.
+         *
+         * @param name Nombre del componente.
+         * @param qty  Cantidad del componente.
+         */
         public void addComponent(String name, int qty) {
             if (name == null || name.isEmpty() || qty <= 0) return;
             components.merge(name, qty, Integer::sum);
         }
 
+        /**
+         * Agrega un componente a un paso específico.
+         *
+         * @param step Número del paso.
+         * @param name Nombre del componente.
+         * @param qty  Cantidad del componente.
+         */
         public void addComponent(int step, String name, int qty) {
             addComponent(name, qty);
             componentsByStep
@@ -102,6 +134,11 @@ public class Analyzer {
                     .merge(name, qty, Integer::sum);
         }
 
+        /**
+         * Imprime un reporte con las acciones, herrajes y herramientas detectados.
+         *
+         * @param itemId Identificador del ítem analizado.
+         */
         public void printReport(String itemId) {
             System.out.println("\n==============================");
             System.out.println(" ITEM: " + itemId);
@@ -135,23 +172,45 @@ public class Analyzer {
         }
     }
 
-    // --------------------------------------------------
-    // VISITOR PRINCIPAL
-    // --------------------------------------------------
+    /**
+     * Clase interna `AnalyzerVisitor` que extiende `IKEABaseVisitor` para recorrer el árbol sintáctico.
+     * Realiza el análisis semántico y llena la tabla de símbolos.
+     */
     public static class AnalyzerVisitor extends IKEABaseVisitor<Void> {
         private final SymbolTable st;
         private String itemId = "";
         private int currentStep = -1;
 
+        /**
+         * Constructor que inicializa el visitor con una tabla de símbolos.
+         *
+         * @param st Tabla de símbolos donde se almacenará la información analizada.
+         */
         public AnalyzerVisitor(SymbolTable st) { this.st = st; }
+
+        /**
+         * Obtiene el identificador del ítem analizado.
+         *
+         * @return Identificador del ítem.
+         */
         public String getItemId() { return itemId; }
 
-        // ---------- Helpers ----------
+        /**
+         * Cuenta los componentes en una lista de componentes.
+         *
+         * @param ctx Contexto de la lista de componentes.
+         */
         private void countListaComponentes(IKEAParser.ListaComponentesContext ctx) {
             if (ctx == null) return;
             for (IKEAParser.ComponenteContext c : ctx.componente()) countComponente(c);
         }
 
+        /**
+         * Normaliza el tipo de un componente.
+         *
+         * @param t Tipo del componente.
+         * @return Tipo normalizado.
+         */
         private static String normalizeTipo(String t) {
             if (t == null) return null;
             String s = t.toLowerCase(Locale.ROOT);
@@ -169,6 +228,11 @@ public class Analyzer {
             return s;
         }
 
+        /**
+         * Cuenta un componente específico.
+         *
+         * @param c Contexto del componente.
+         */
         private void countComponente(IKEAParser.ComponenteContext c) {
             if (c == null) return;
             int qty = 1;
@@ -187,6 +251,12 @@ public class Analyzer {
             st.addComponent(currentStep, name, qty);
         }
 
+        /**
+         * Obtiene el texto de una herramienta.
+         *
+         * @param h Contexto de la herramienta.
+         * @return Texto de la herramienta.
+         */
         private String herramientaText(IKEAParser.HerramientaContext h) {
             return (h == null) ? null : h.getText().toLowerCase(Locale.ROOT);
         }
@@ -252,7 +322,6 @@ public class Analyzer {
         @Override public Void visitAccionNivelar(IKEAParser.AccionNivelarContext ctx)     { st.addAction(currentStep, "Nivelar");   return super.visitAccionNivelar(ctx); }
         @Override public Void visitAccionFijar(IKEAParser.AccionFijarContext ctx)         { st.addAction(currentStep, "Fijar");     return super.visitAccionFijar(ctx); }
 
-        // === "Con <herramienta>, <accion>" ===
         @Override
         public Void visitAccionConHerramienta(IKEAParser.AccionConHerramientaContext ctx) {
             String tool = herramientaText(ctx.conHerramienta().herramienta());
@@ -275,7 +344,6 @@ public class Analyzer {
             return super.visitAccionConHerramienta(ctx);
         }
 
-        // === Repetir (usa subcontexto RepetirContext con alias paso/veces) ===
         @Override
         public Void visitAccionRepetir(IKEAParser.AccionRepetirContext ctx) {
             IKEAParser.RepetirContext repCtx = ctx.repetir();

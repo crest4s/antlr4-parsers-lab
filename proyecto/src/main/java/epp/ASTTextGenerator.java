@@ -6,29 +6,36 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 /**
- * Genera un AST textual legible del lenguaje EPP filtrando detalles sintácticos
- * y mostrando solo la estructura semántica del programa.
+ * Clase `ASTTextGenerator` que genera una representación textual del árbol sintáctico (AST)
+ * del lenguaje EPP, filtrando detalles sintácticos y mostrando solo la estructura semántica.
  */
 public class ASTTextGenerator {
 
+    /**
+     * Genera un AST textual a partir de un archivo de entrada y lo guarda en un archivo de salida.
+     *
+     * @param filePath   Ruta del archivo de entrada que contiene el código fuente en EPP.
+     * @param outputPath Ruta del archivo donde se guardará la representación textual del AST.
+     * @throws IOException Si ocurre un error al leer o escribir en los archivos.
+     */
     public static void generateASTText(String filePath, String outputPath) throws IOException {
-        // 1️⃣ Crear flujo de entrada
+        // 1. Crear flujo de entrada
         CharStream input = CharStreams.fromFileName(filePath);
 
-        // 2️⃣ Crear lexer y parser
+        // 2. Crear lexer y parser
         EPPLexer lexer = new EPPLexer(input);
         CommonTokenStream tokens = new CommonTokenStream(lexer);
         EPPParser parser = new EPPParser(tokens);
 
-        // 3️⃣ Obtener árbol sintáctico
+        // 3. Obtener árbol sintáctico
         EPPParser.ProgramaContext tree = parser.programa();
 
-        // 4️⃣ Generar texto a partir del árbol (AST semántico)
+        // 4. Generar texto a partir del árbol (AST semántico)
         StringBuilder sb = new StringBuilder();
         sb.append("Programa:\n");
         printPrograma(tree, sb, 1);
 
-        // 5️⃣ Guardar en archivo
+        // 5. Guardar en archivo
         try (FileWriter writer = new FileWriter(outputPath)) {
             writer.write(sb.toString());
         }
@@ -36,10 +43,13 @@ public class ASTTextGenerator {
         System.out.println("✅ AST textual de EPP guardado en: " + outputPath);
     }
 
-    // ---------------------------------------------------------------------
-    // Impresión de nodos semánticos
-    // ---------------------------------------------------------------------
-
+    /**
+     * Imprime los nodos del programa en el AST.
+     *
+     * @param ctx   Contexto del programa en el árbol sintáctico.
+     * @param sb    `StringBuilder` donde se almacenará la representación textual.
+     * @param indent Nivel de indentación para la representación jerárquica.
+     */
     private static void printPrograma(EPPParser.ProgramaContext ctx, StringBuilder sb, int indent) {
         if (ctx == null || ctx.children == null) return;
 
@@ -52,6 +62,13 @@ public class ASTTextGenerator {
         }
     }
 
+    /**
+     * Imprime un comentario del AST.
+     *
+     * @param ctx   Contexto del comentario en el árbol sintáctico.
+     * @param sb    `StringBuilder` donde se almacenará la representación textual.
+     * @param indent Nivel de indentación para la representación jerárquica.
+     */
     private static void printComentario(EPPParser.ComentarioContext ctx, StringBuilder sb, int indent) {
         String text = ctx.COMENTARIO().getText();
         // Quitar el '#' inicial
@@ -61,6 +78,13 @@ public class ASTTextGenerator {
         sb.append(indent(indent)).append("Comentario: ").append(text).append("\n");
     }
 
+    /**
+     * Imprime una instrucción del AST.
+     *
+     * @param ctx   Contexto de la instrucción en el árbol sintáctico.
+     * @param sb    `StringBuilder` donde se almacenará la representación textual.
+     * @param indent Nivel de indentación para la representación jerárquica.
+     */
     private static void printInstruccion(EPPParser.InstruccionContext ctx, StringBuilder sb, int indent) {
         if (ctx.asignacion() != null) {
             printAsignacion(ctx.asignacion(), sb, indent);
@@ -75,6 +99,13 @@ public class ASTTextGenerator {
         }
     }
 
+    /**
+     * Imprime una asignación del AST.
+     *
+     * @param ctx   Contexto de la asignación en el árbol sintáctico.
+     * @param sb    `StringBuilder` donde se almacenará la representación textual.
+     * @param indent Nivel de indentación para la representación jerárquica.
+     */
     private static void printAsignacion(EPPParser.AsignacionContext ctx, StringBuilder sb, int indent) {
         sb.append(indent(indent)).append("Asignación:\n");
 
@@ -85,17 +116,38 @@ public class ASTTextGenerator {
         sb.append(indent(indent + 1)).append("Valor: ").append(exprText).append("\n");
     }
 
+    /**
+     * Imprime una instrucción de mostrar del AST.
+     *
+     * @param ctx   Contexto de la instrucción de mostrar en el árbol sintáctico.
+     * @param sb    `StringBuilder` donde se almacenará la representación textual.
+     * @param indent Nivel de indentación para la representación jerárquica.
+     */
     private static void printMostrar(EPPParser.MostrarContext ctx, StringBuilder sb, int indent) {
         sb.append(indent(indent)).append("Mostrar:\n");
         String exprText = prettyExpr(ctx.expresion());
         sb.append(indent(indent + 1)).append("Expresión: ").append(exprText).append("\n");
     }
 
+    /**
+     * Imprime una instrucción de leer del AST.
+     *
+     * @param ctx   Contexto de la instrucción de leer en el árbol sintáctico.
+     * @param sb    `StringBuilder` donde se almacenará la representación textual.
+     * @param indent Nivel de indentación para la representación jerárquica.
+     */
     private static void printLeer(EPPParser.LeerContext ctx, StringBuilder sb, int indent) {
         sb.append(indent(indent)).append("Leer:\n");
         sb.append(indent(indent + 1)).append("Variable: ").append(ctx.ID().getText()).append("\n");
     }
 
+    /**
+     * Imprime una instrucción de mientras del AST.
+     *
+     * @param ctx   Contexto de la instrucción de mientras en el árbol sintáctico.
+     * @param sb    `StringBuilder` donde se almacenará la representación textual.
+     * @param indent Nivel de indentación para la representación jerárquica.
+     */
     private static void printMientras(EPPParser.MientrasContext ctx, StringBuilder sb, int indent) {
         sb.append(indent(indent)).append("Mientras:\n");
         String condText = prettyExpr(ctx.expresion());
@@ -105,6 +157,13 @@ public class ASTTextGenerator {
         printBloque(ctx.bloque(), sb, indent + 2);
     }
 
+    /**
+     * Imprime una instrucción condicional del AST.
+     *
+     * @param ctx   Contexto de la instrucción condicional en el árbol sintáctico.
+     * @param sb    `StringBuilder` donde se almacenará la representación textual.
+     * @param indent Nivel de indentación para la representación jerárquica.
+     */
     private static void printCondicional(EPPParser.CondicionalContext ctx, StringBuilder sb, int indent) {
         sb.append(indent(indent)).append("Condicional:\n");
 
@@ -122,6 +181,13 @@ public class ASTTextGenerator {
         }
     }
 
+    /**
+     * Imprime un bloque de instrucciones del AST.
+     *
+     * @param ctx   Contexto del bloque en el árbol sintáctico.
+     * @param sb    `StringBuilder` donde se almacenará la representación textual.
+     * @param indent Nivel de indentación para la representación jerárquica.
+     */
     private static void printBloque(EPPParser.BloqueContext ctx, StringBuilder sb, int indent) {
         if (ctx == null || ctx.children == null) return;
 
@@ -134,10 +200,12 @@ public class ASTTextGenerator {
         }
     }
 
-    // ---------------------------------------------------------------------
-    // Pretty-printer de expresiones (usa las alternativas etiquetadas)
-    // ---------------------------------------------------------------------
-
+    /**
+     * Genera una representación textual de una expresión del AST.
+     *
+     * @param ctx Contexto de la expresión en el árbol sintáctico.
+     * @return Representación textual de la expresión.
+     */
     private static String prettyExpr(EPPParser.ExpresionContext ctx) {
         if (ctx == null) return "";
 
@@ -190,10 +258,12 @@ public class ASTTextGenerator {
         return ctx.getText();
     }
 
-    // ---------------------------------------------------------------------
-    // Utilidad de indentación
-    // ---------------------------------------------------------------------
-
+    /**
+     * Genera una cadena de espacios para la indentación.
+     *
+     * @param level Nivel de indentación.
+     * @return Cadena de espacios correspondiente al nivel de indentación.
+     */
     private static String indent(int level) {
         return "  ".repeat(Math.max(0, level));
     }

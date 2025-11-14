@@ -1,65 +1,63 @@
 // CSV.g4
 // Gramática CSV para ANTLR4
+// Esta gramática define las reglas para analizar archivos CSV con las siguientes características:
 // - Separadores admitidos: ',', ';', '|'
-// - Campos: sin comillas o entrecomillados
-// - Comillas escapadas dentro de campo entrecomillado: ""
+// - Campos: pueden estar sin comillas, entrecomillados o vacíos
+// - Comillas escapadas dentro de campos entrecomillados: ""
 // - Campos vacíos permitidos
-// - Saltos de línea: \n, \r\n, \r
-// - No se recortan espacios: los espacios forman parte del contenido del campo
-//   (si quieres recortar, hazlo en el visitor/listener)
+// - Saltos de línea admitidos: \n, \r\n, \r
+// - Los espacios no se recortan automáticamente; forman parte del contenido del campo
+//   (si se desea recortar, debe hacerse en el visitor o listener correspondiente)
 
 grammar CSV;
 
 @header {
-package csv;
+package csv; // Define el paquete Java donde se generará el código
 }
-
 
 // ---------- Reglas del parser ----------
 
+// Regla principal que representa un archivo CSV completo
 csv
-  : fila (NL fila)* NL? EOF
+  : fila (NL fila)* NL? EOF // Un archivo CSV contiene una o más filas, separadas por saltos de línea
   ;
 
+// Regla que define una fila en el archivo CSV
 fila
-  : campo (SEPARADOR campo)*        // a,b,,c
-  | (SEPARADOR campo)+              // ,a,,b
+  : campo (SEPARADOR campo)*        // Una fila con campos separados por un delimitador (ejemplo: a,b,,c)
+  | (SEPARADOR campo)+              // Una fila que comienza con uno o más delimitadores (ejemplo: ,a,,b)
   ;
 
+// Regla que define un campo en una fila
 campo
-  : QUOTED                         // "texto, con separador"
-  | TEXTO                          // texto sin comillas
-  |                                // campo vacío (por ejemplo ;; o al final ;)
+  : QUOTED                         // Campo entrecomillado (ejemplo: "texto, con separador")
+  | TEXTO                          // Campo sin comillas (ejemplo: texto sin comillas)
+  |                                // Campo vacío (ejemplo: ;; o al final de una fila ;)
   ;
 
 // ---------- Reglas del lexer ----------
 
-// SEPARADOR permite coma, punto y coma o barra vertical
+// Token que define los separadores permitidos: coma, punto y coma o barra vertical
 SEPARADOR : [;,|];
 
-// Campo entrecomillado:
-//   - Empieza y termina con "
-//   - Permite cualquier carácter excepto salto de línea
-//   - Permite comillas escapadas como ""
+// Token que define un campo entrecomillado:
+// - Empieza y termina con comillas dobles (")
+// - Permite cualquier carácter excepto saltos de línea
+// - Permite comillas escapadas representadas como ""
 QUOTED
   : '"' ( '""' | ~["\r\n] )* '"'
   ;
 
-// Texto sin comillas:
-//   - Cualquier cosa que NO sea separador, comillas o salto de línea
-//   - Incluye espacios y tabuladores, que se conservan
+// Token que define un campo sin comillas:
+// - Contiene cualquier carácter que no sea un separador, comillas o salto de línea
+// - Incluye espacios y tabuladores, que se conservan como parte del contenido
 TEXTO
   : ~[;\r\n,|"]+
   ;
 
-// Saltos de línea aceptados: \n, \r\n o \r
+// Token que define los saltos de línea admitidos:
+// - \n (Unix), \r\n (Windows) o \r (antiguo Mac)
 NL
   : '\r'? '\n'
   | '\r'
   ;
-
-// No ignoramos espacios globalmente para no perderlos dentro de TEXTO.
-// Si quieres permitir espacios *entre* campos sin que cuenten,
-// puedes crear un token SPACES y referenciarlo opcionalmente en la regla `fila`
-// alrededor de SEPARADOR, pero por simplicidad y fidelidad al CSV estándar
-// los tratamos como parte del contenido del campo.

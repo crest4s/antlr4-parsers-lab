@@ -12,18 +12,18 @@ public class ASTGenerator {
      * Genera y muestra el árbol sintáctico (AST) de un archivo CSV.
      */
     public static void showAST(String filePath) throws IOException {
-        // 1️⃣ Crear flujo de entrada
+        // 1. Crear flujo de entrada
         CharStream input = CharStreams.fromFileName(filePath);
 
-        // 2️⃣ Crear lexer y parser generados por ANTLR
+        // 2. Crear lexer y parser generados por ANTLR
         CSVLexer lexer = new CSVLexer(input);
         CommonTokenStream tokens = new CommonTokenStream(lexer);
         CSVParser parser = new CSVParser(tokens);
 
-        // 3️⃣ Obtener árbol sintáctico (regla inicial)
+        // 3. Obtener árbol sintáctico (regla inicial)
         ParseTree tree = parser.csv();
 
-        // 4️⃣ Mostrar GUI interactiva del árbol (equivalente a 'grun CSV file -gui')
+        // 4. Mostrar GUI interactiva del árbol (equivalente a 'grun CSV file -gui')
         Trees.inspect(tree, parser);
     }
 }

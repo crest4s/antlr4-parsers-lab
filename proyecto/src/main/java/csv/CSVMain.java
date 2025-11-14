@@ -2,8 +2,18 @@ package csv;
 
 import java.util.Scanner;
 
+/**
+ * Clase principal `CSVMain` que actúa como punto de entrada para el analizador CSV.
+ * Permite al usuario interactuar con el programa para analizar archivos CSV,
+ * mostrar el árbol sintáctico (AST) en modo gráfico o generar una representación textual del AST.
+ */
 public class CSVMain {
 
+    /**
+     * Método principal que inicia el programa y gestiona la interacción con el usuario.
+     *
+     * @param args Argumentos de línea de comandos (no utilizados en este programa).
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("=== ANALIZADOR CSV ===");
@@ -11,6 +21,7 @@ public class CSVMain {
         String currentFile = null;
 
         while (true) {
+            // Solicitar la ruta del archivo CSV si no hay un archivo actual configurado
             if (currentFile == null) {
                 System.out.print("Introduce la ruta del archivo CSV (o 'exit' para salir): ");
                 String input = scanner.nextLine().trim();
@@ -27,6 +38,7 @@ public class CSVMain {
             }
 
             try {
+                // Mostrar menú de opciones al usuario
                 System.out.println("\nArchivo activo: " + currentFile);
                 System.out.println("Opciones:");
                 System.out.println("1. Mostrar AST (modo gráfico)");
@@ -43,6 +55,7 @@ public class CSVMain {
 
                 int choice = Integer.parseInt(input);
 
+                // Procesar la opción seleccionada por el usuario
                 switch (choice) {
                     case 1 -> {
                         System.out.println("Mostrando árbol sintáctico interactivo...");
@@ -68,13 +81,16 @@ public class CSVMain {
                 }
 
             } catch (NumberFormatException e) {
+                // Manejar errores de entrada no numérica
                 System.out.println("Introduce un número válido o 'exit' para salir.");
             } catch (Exception e) {
+                // Manejar errores generales
                 System.err.println("Error al procesar:");
                 e.printStackTrace();
             }
         }
 
+        // Cerrar el escáner al finalizar el programa
         scanner.close();
     }
 }
