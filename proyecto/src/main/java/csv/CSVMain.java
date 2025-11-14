@@ -15,11 +15,11 @@ public class CSVMain {
                 System.out.print("Introduce la ruta del archivo CSV (o 'exit' para salir): ");
                 String input = scanner.nextLine().trim();
                 if (input.equalsIgnoreCase("exit")) {
-                    System.out.println("👋 Saliendo del analizador CSV...");
+                    System.out.println("Saliendo del analizador CSV...");
                     break;
                 }
                 if (input.isEmpty()) {
-                    System.out.println("❌ Ruta no válida.");
+                    System.out.println("Ruta no válida.");
                     continue;
                 }
                 currentFile = input;
@@ -37,7 +37,7 @@ public class CSVMain {
 
                 String input = scanner.nextLine().trim();
                 if (input.equalsIgnoreCase("exit")) {
-                    System.out.println("👋 Saliendo del analizador CSV...");
+                    System.out.println("Saliendo del analizador CSV...");
                     break;
                 }
 
@@ -45,13 +45,13 @@ public class CSVMain {
 
                 switch (choice) {
                     case 1 -> {
-                        System.out.println("🔹 Mostrando árbol sintáctico interactivo...");
+                        System.out.println("Mostrando árbol sintáctico interactivo...");
                         ASTGenerator.showAST(currentFile);
                     }
                     case 2 -> {
                         System.out.print("Ruta de salida del archivo .txt: ");
                         String outputPath = scanner.nextLine().trim();
-                        System.out.println("🔹 Generando AST textual...");
+                        System.out.println("Generando AST textual...");
                         ASTTextGenerator.generateASTText(currentFile, outputPath);
                     }
                     case 3 -> {
@@ -64,13 +64,13 @@ public class CSVMain {
                             System.out.println("Archivo configurado: " + currentFile);
                         }
                     }
-                    default -> System.out.println("❌ Opción no válida.");
+                    default -> System.out.println("Opción no válida.");
                 }
 
             } catch (NumberFormatException e) {
-                System.out.println("❌ Introduce un número válido o 'exit' para salir.");
+                System.out.println("Introduce un número válido o 'exit' para salir.");
             } catch (Exception e) {
-                System.err.println("❌ Error al procesar:");
+                System.err.println("Error al procesar:");
                 e.printStackTrace();
             }
         }

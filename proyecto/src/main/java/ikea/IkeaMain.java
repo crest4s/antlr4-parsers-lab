@@ -14,15 +14,15 @@ public class IkeaMain {
                 String filePath = scanner.nextLine().trim();
 
                 if (filePath.equalsIgnoreCase("exit")) {
-                    System.out.println("👋 Saliendo del analizador IKEA...");
+                    System.out.println("Saliendo del analizador IKEA...");
                     break;
                 }
 
-                System.out.println("🔹 Generando y mostrando árbol sintáctico...");
+                System.out.println("Generando y mostrando árbol sintáctico...");
                 ASTGenerator.showAST(filePath);
 
             } catch (Exception e) {
-                System.err.println("❌ Error al generar o mostrar el AST:");
+                System.err.println("Error al generar o mostrar el AST:");
                 e.printStackTrace();
             }
         }

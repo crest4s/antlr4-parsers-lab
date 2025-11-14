@@ -31,7 +31,7 @@ public class Analyzer {
             String path = scanner.nextLine().trim();
 
             if (path.isEmpty()) {
-                System.err.println("⚠️  No se ha introducido ninguna ruta. Finalizando programa.");
+                System.err.println("No se ha introducido ninguna ruta. Finalizando programa.");
                 return;
             }
 
@@ -55,11 +55,11 @@ public class Analyzer {
             st.printReport(visitor.getItemId());
 
         } catch (ParseCancellationException e) {
-            System.err.println("❌ Error de sintaxis: " + e.getMessage());
+            System.err.println("Error de sintaxis: " + e.getMessage());
         } catch (IOException e) {
-            System.err.println("❌ Error al leer el archivo: " + e.getMessage());
+            System.err.println("Error al leer el archivo: " + e.getMessage());
         } catch (Exception e) {
-            System.err.println("❌ Error en el análisis: ");
+            System.err.println("Error en el análisis: ");
             e.printStackTrace();
         }
     }
