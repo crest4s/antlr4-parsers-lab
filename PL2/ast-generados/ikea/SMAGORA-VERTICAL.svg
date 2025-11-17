@@ -1,0 +1,1555 @@
+<svg width="6200.700000000001" height="883.3000000000001" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><line x1="1802.140625" y1="6.0" x2="58.0" y2="29.0" style="stroke:black; stroke-width:1px;" />
+<line x1="58.0" y1="35.0" x2="16.5" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="58.0" y1="35.0" x2="99.5" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1802.140625" y1="6.0" x2="210.75" y2="29.0" style="stroke:black; stroke-width:1px;" />
+<line x1="210.75" y1="35.0" x2="171.0" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="210.75" y1="35.0" x2="187.0" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="210.75" y1="35.0" x2="219.0" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="219.0" y1="64.0" x2="219.0" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="219.0" y1="93.0" x2="125.9375" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="125.9375" y1="122.0" x2="80.1875" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="125.9375" y1="122.0" x2="130.1875" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="130.1875" y1="151.0" x2="130.1875" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="125.9375" y1="122.0" x2="171.6875" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="219.0" y1="93.0" x2="312.0625" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="312.0625" y1="122.0" x2="204.6875" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="312.0625" y1="122.0" x2="279.6875" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="279.6875" y1="151.0" x2="279.6875" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="279.6875" y1="180.0" x2="235.9375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="235.9375" y1="209.0" x2="235.9375" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="279.6875" y1="180.0" x2="275.9375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="275.9375" y1="209.0" x2="275.9375" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="279.6875" y1="180.0" x2="323.4375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="323.4375" y1="209.0" x2="323.4375" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="312.0625" y1="122.0" x2="358.3125" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="312.0625" y1="122.0" x2="419.4375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="419.4375" y1="151.0" x2="381.4375" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="381.4375" y1="180.0" x2="363.4375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="381.4375" y1="180.0" x2="399.4375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="419.4375" y1="151.0" x2="419.4375" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="419.4375" y1="151.0" x2="457.4375" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="457.4375" y1="180.0" x2="435.4375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="457.4375" y1="180.0" x2="479.4375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="210.75" y1="35.0" x2="250.5" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1802.140625" y1="6.0" x2="687.375" y2="29.0" style="stroke:black; stroke-width:1px;" />
+<line x1="687.375" y1="35.0" x2="647.625" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="687.375" y1="35.0" x2="663.625" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="687.375" y1="35.0" x2="695.625" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="695.625" y1="64.0" x2="594.6875" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="594.6875" y1="93.0" x2="594.6875" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="594.6875" y1="122.0" x2="501.4375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="594.6875" y1="122.0" x2="574.9375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="574.9375" y1="151.0" x2="574.9375" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="574.9375" y1="180.0" x2="530.9375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="530.9375" y1="209.0" x2="530.9375" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="574.9375" y1="180.0" x2="570.9375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="570.9375" y1="209.0" x2="570.9375" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="574.9375" y1="180.0" x2="618.9375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="618.9375" y1="209.0" x2="618.9375" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="594.6875" y1="122.0" x2="635.4375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="594.6875" y1="122.0" x2="687.9375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="687.9375" y1="151.0" x2="687.9375" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="687.9375" y1="180.0" x2="652.1875" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="687.9375" y1="180.0" x2="682.1875" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="687.9375" y1="180.0" x2="723.6875" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="695.625" y1="64.0" x2="695.625" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="695.625" y1="64.0" x2="796.5625" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="796.5625" y1="93.0" x2="796.5625" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="796.5625" y1="122.0" x2="773.0625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="796.5625" y1="122.0" x2="820.0625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="820.0625" y1="151.0" x2="780.1875" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="780.1875" y1="180.0" x2="762.1875" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="780.1875" y1="180.0" x2="798.1875" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="820.0625" y1="151.0" x2="820.0625" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="820.0625" y1="151.0" x2="859.9375" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="859.9375" y1="180.0" x2="824.1875" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="859.9375" y1="180.0" x2="854.1875" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="859.9375" y1="180.0" x2="895.6875" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="687.375" y1="35.0" x2="727.125" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1802.140625" y1="6.0" x2="897.5625" y2="29.0" style="stroke:black; stroke-width:1px;" />
+<line x1="897.5625" y1="35.0" x2="857.8125" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="897.5625" y1="35.0" x2="873.8125" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="897.5625" y1="35.0" x2="905.8125" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="905.8125" y1="64.0" x2="905.8125" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="905.8125" y1="93.0" x2="905.8125" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="905.8125" y1="122.0" x2="874.5625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="905.8125" y1="122.0" x2="905.0625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="905.8125" y1="122.0" x2="921.0625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="905.8125" y1="122.0" x2="937.0625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="897.5625" y1="35.0" x2="937.3125" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1802.140625" y1="6.0" x2="1090.625" y2="29.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1090.625" y1="35.0" x2="1050.875" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1090.625" y1="35.0" x2="1066.875" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1090.625" y1="35.0" x2="1098.875" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1098.875" y1="64.0" x2="1098.875" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1098.875" y1="93.0" x2="1005.8125" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1005.8125" y1="122.0" x2="960.0625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1005.8125" y1="122.0" x2="1010.0625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1010.0625" y1="151.0" x2="1010.0625" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1005.8125" y1="122.0" x2="1051.5625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1098.875" y1="93.0" x2="1191.9375" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1191.9375" y1="122.0" x2="1084.5625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1191.9375" y1="122.0" x2="1159.5625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1159.5625" y1="151.0" x2="1159.5625" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1159.5625" y1="180.0" x2="1115.8125" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1115.8125" y1="209.0" x2="1115.8125" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1159.5625" y1="180.0" x2="1155.8125" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1155.8125" y1="209.0" x2="1155.8125" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1159.5625" y1="180.0" x2="1203.3125" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1203.3125" y1="209.0" x2="1203.3125" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1191.9375" y1="122.0" x2="1233.4375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1191.9375" y1="122.0" x2="1299.3125" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1299.3125" y1="151.0" x2="1299.3125" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1299.3125" y1="180.0" x2="1233.3125" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1299.3125" y1="180.0" x2="1263.3125" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1299.3125" y1="180.0" x2="1304.8125" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1299.3125" y1="180.0" x2="1336.3125" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1299.3125" y1="180.0" x2="1365.3125" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1365.3125" y1="209.0" x2="1365.3125" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1090.625" y1="35.0" x2="1130.375" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1802.140625" y1="6.0" x2="1425.6875" y2="29.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1425.6875" y1="35.0" x2="1385.9375" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1425.6875" y1="35.0" x2="1401.9375" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1425.6875" y1="35.0" x2="1433.9375" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1433.9375" y1="64.0" x2="1433.9375" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1433.9375" y1="93.0" x2="1433.9375" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1433.9375" y1="122.0" x2="1365.8125" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1433.9375" y1="122.0" x2="1409.8125" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1409.8125" y1="151.0" x2="1381.0625" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1409.8125" y1="151.0" x2="1438.5625" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1433.9375" y1="122.0" x2="1456.4375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1433.9375" y1="122.0" x2="1502.0625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1502.0625" y1="151.0" x2="1502.0625" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1425.6875" y1="35.0" x2="1465.4375" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1802.140625" y1="6.0" x2="1556.6875" y2="29.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1556.6875" y1="35.0" x2="1516.9375" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1556.6875" y1="35.0" x2="1532.9375" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1556.6875" y1="35.0" x2="1564.9375" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1564.9375" y1="64.0" x2="1564.9375" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1564.9375" y1="93.0" x2="1564.9375" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1564.9375" y1="122.0" x2="1541.4375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1564.9375" y1="122.0" x2="1588.4375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1588.4375" y1="151.0" x2="1545.0625" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1545.0625" y1="180.0" x2="1523.0625" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1545.0625" y1="180.0" x2="1567.0625" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1588.4375" y1="151.0" x2="1588.4375" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1588.4375" y1="151.0" x2="1631.8125" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1631.8125" y1="180.0" x2="1611.0625" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1631.8125" y1="180.0" x2="1652.5625" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1556.6875" y1="35.0" x2="1596.4375" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1802.140625" y1="6.0" x2="1768.875" y2="29.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1768.875" y1="35.0" x2="1729.125" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1768.875" y1="35.0" x2="1745.125" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1768.875" y1="35.0" x2="1777.125" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1777.125" y1="64.0" x2="1777.125" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1777.125" y1="93.0" x2="1684.0625" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1684.0625" y1="122.0" x2="1638.3125" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1684.0625" y1="122.0" x2="1688.3125" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1688.3125" y1="151.0" x2="1688.3125" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1684.0625" y1="122.0" x2="1729.8125" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1777.125" y1="93.0" x2="1870.1875" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1870.1875" y1="122.0" x2="1762.8125" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1870.1875" y1="122.0" x2="1837.8125" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1837.8125" y1="151.0" x2="1837.8125" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1837.8125" y1="180.0" x2="1794.0625" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1794.0625" y1="209.0" x2="1794.0625" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1837.8125" y1="180.0" x2="1834.0625" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1834.0625" y1="209.0" x2="1834.0625" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1837.8125" y1="180.0" x2="1881.5625" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1881.5625" y1="209.0" x2="1881.5625" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1870.1875" y1="122.0" x2="1911.6875" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1870.1875" y1="122.0" x2="1977.5625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1977.5625" y1="151.0" x2="1977.5625" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1977.5625" y1="180.0" x2="1911.5625" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1977.5625" y1="180.0" x2="1941.5625" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1977.5625" y1="180.0" x2="1983.0625" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1977.5625" y1="180.0" x2="2014.5625" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1977.5625" y1="180.0" x2="2043.5625" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2043.5625" y1="209.0" x2="2043.5625" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1768.875" y1="35.0" x2="1808.625" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1802.140625" y1="6.0" x2="2150.1875" y2="29.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2150.1875" y1="35.0" x2="2110.4375" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2150.1875" y1="35.0" x2="2126.4375" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2150.1875" y1="35.0" x2="2158.4375" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2158.4375" y1="64.0" x2="2158.4375" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2158.4375" y1="93.0" x2="2158.4375" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2158.4375" y1="122.0" x2="2054.8125" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2158.4375" y1="122.0" x2="2128.3125" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2128.3125" y1="151.0" x2="2128.3125" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2128.3125" y1="180.0" x2="2087.0625" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2087.0625" y1="209.0" x2="2087.0625" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2128.3125" y1="180.0" x2="2127.0625" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2127.0625" y1="209.0" x2="2127.0625" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2128.3125" y1="180.0" x2="2169.5625" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2169.5625" y1="209.0" x2="2169.5625" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2158.4375" y1="122.0" x2="2199.1875" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2158.4375" y1="122.0" x2="2262.0625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2262.0625" y1="151.0" x2="2262.0625" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2262.0625" y1="180.0" x2="2209.5625" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2262.0625" y1="180.0" x2="2251.0625" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2262.0625" y1="180.0" x2="2285.5625" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2262.0625" y1="180.0" x2="2314.5625" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2314.5625" y1="209.0" x2="2314.5625" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2150.1875" y1="35.0" x2="2189.9375" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1802.140625" y1="6.0" x2="2459.421875" y2="29.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2459.421875" y1="35.0" x2="2419.671875" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2459.421875" y1="35.0" x2="2435.671875" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2459.421875" y1="35.0" x2="2467.671875" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2467.671875" y1="64.0" x2="2325.5625" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2325.5625" y1="93.0" x2="2325.5625" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2325.5625" y1="122.0" x2="2325.5625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2467.671875" y1="64.0" x2="2358.9375" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2467.671875" y1="64.0" x2="2392.3125" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2392.3125" y1="93.0" x2="2392.3125" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2392.3125" y1="122.0" x2="2364.0625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2392.3125" y1="122.0" x2="2391.5625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2392.3125" y1="122.0" x2="2420.5625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2420.5625" y1="151.0" x2="2420.5625" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2467.671875" y1="64.0" x2="2501.046875" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2467.671875" y1="64.0" x2="2609.78125" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2609.78125" y1="93.0" x2="2499.3125" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2499.3125" y1="122.0" x2="2453.5625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2499.3125" y1="122.0" x2="2503.5625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2503.5625" y1="151.0" x2="2503.5625" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2499.3125" y1="122.0" x2="2545.0625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2609.78125" y1="93.0" x2="2720.25" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2720.25" y1="122.0" x2="2578.0625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2720.25" y1="122.0" x2="2653.0625" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2653.0625" y1="151.0" x2="2583.6875" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2583.6875" y1="180.0" x2="2539.9375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2539.9375" y1="209.0" x2="2539.9375" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2583.6875" y1="180.0" x2="2579.9375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2579.9375" y1="209.0" x2="2579.9375" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2583.6875" y1="180.0" x2="2627.4375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2627.4375" y1="209.0" x2="2627.4375" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2653.0625" y1="151.0" x2="2653.0625" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2653.0625" y1="151.0" x2="2722.4375" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2722.4375" y1="180.0" x2="2674.9375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2674.9375" y1="209.0" x2="2674.9375" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2722.4375" y1="180.0" x2="2714.9375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2714.9375" y1="209.0" x2="2714.9375" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2722.4375" y1="180.0" x2="2769.9375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2769.9375" y1="209.0" x2="2769.9375" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2720.25" y1="122.0" x2="2761.75" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2720.25" y1="122.0" x2="2862.4375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2862.4375" y1="151.0" x2="2862.4375" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2862.4375" y1="180.0" x2="2809.9375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2862.4375" y1="180.0" x2="2851.4375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2862.4375" y1="180.0" x2="2885.9375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2862.4375" y1="180.0" x2="2914.9375" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2914.9375" y1="209.0" x2="2914.9375" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2459.421875" y1="35.0" x2="2499.171875" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1802.140625" y1="6.0" x2="2997.4375" y2="29.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2997.4375" y1="35.0" x2="2956.1875" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2997.4375" y1="35.0" x2="2975.1875" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2997.4375" y1="35.0" x2="3007.1875" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3007.1875" y1="64.0" x2="3007.1875" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3007.1875" y1="93.0" x2="3007.1875" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3007.1875" y1="122.0" x2="2926.4375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3007.1875" y1="122.0" x2="2963.9375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3007.1875" y1="122.0" x2="3012.9375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3012.9375" y1="151.0" x2="3012.9375" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3007.1875" y1="122.0" x2="3058.9375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3007.1875" y1="122.0" x2="3087.9375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3087.9375" y1="151.0" x2="3087.9375" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="2997.4375" y1="35.0" x2="3038.6875" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1802.140625" y1="6.0" x2="3215.0625" y2="29.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3215.0625" y1="35.0" x2="3173.8125" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3215.0625" y1="35.0" x2="3192.8125" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3215.0625" y1="35.0" x2="3224.8125" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3224.8125" y1="64.0" x2="3224.8125" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3224.8125" y1="93.0" x2="3166.6875" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3166.6875" y1="122.0" x2="3120.9375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3166.6875" y1="122.0" x2="3170.9375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3170.9375" y1="151.0" x2="3170.9375" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3166.6875" y1="122.0" x2="3212.4375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3224.8125" y1="93.0" x2="3282.9375" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3282.9375" y1="122.0" x2="3245.4375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3282.9375" y1="122.0" x2="3320.4375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3320.4375" y1="151.0" x2="3320.4375" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3320.4375" y1="180.0" x2="3276.6875" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3276.6875" y1="209.0" x2="3276.6875" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3320.4375" y1="180.0" x2="3316.6875" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3316.6875" y1="209.0" x2="3316.6875" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3320.4375" y1="180.0" x2="3364.1875" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3364.1875" y1="209.0" x2="3364.1875" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3215.0625" y1="35.0" x2="3256.3125" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1802.140625" y1="6.0" x2="3463.78125" y2="29.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3463.78125" y1="35.0" x2="3422.53125" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3463.78125" y1="35.0" x2="3441.53125" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3463.78125" y1="35.0" x2="3473.53125" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3473.53125" y1="64.0" x2="3391.9375" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3391.9375" y1="93.0" x2="3391.9375" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3391.9375" y1="122.0" x2="3391.9375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3473.53125" y1="64.0" x2="3473.53125" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3473.53125" y1="64.0" x2="3555.125" y2="87.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3555.125" y1="93.0" x2="3555.125" y2="116.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3555.125" y1="122.0" x2="3438.9375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3555.125" y1="122.0" x2="3512.4375" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3512.4375" y1="151.0" x2="3464.8125" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3464.8125" y1="180.0" x2="3441.8125" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3441.8125" y1="209.0" x2="3441.8125" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3464.8125" y1="180.0" x2="3487.8125" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3487.8125" y1="209.0" x2="3487.8125" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3512.4375" y1="151.0" x2="3512.4375" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3512.4375" y1="151.0" x2="3560.0625" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3560.0625" y1="180.0" x2="3533.8125" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3533.8125" y1="209.0" x2="3533.8125" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3560.0625" y1="180.0" x2="3586.3125" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3586.3125" y1="209.0" x2="3586.3125" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3555.125" y1="122.0" x2="3595.875" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3555.125" y1="122.0" x2="3671.3125" y2="145.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3671.3125" y1="151.0" x2="3671.3125" y2="174.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3671.3125" y1="180.0" x2="3618.8125" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3671.3125" y1="180.0" x2="3660.3125" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3671.3125" y1="180.0" x2="3694.8125" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3671.3125" y1="180.0" x2="3723.8125" y2="203.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3723.8125" y1="209.0" x2="3723.8125" y2="232.0" style="stroke:black; stroke-width:1px;" />
+<line x1="3463.78125" y1="35.0" x2="3505.03125" y2="58.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1802.140625" y1="6.0" x2="3508.78125" y2="29.0" style="stroke:black; stroke-width:1px;" />
+<line x1="1802.140625" y1="6.0" x2="3546.28125" y2="29.0" style="stroke:black; stroke-width:1px;" />
+<rect x="3656.3125" y="174.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3658" y="183" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="870.5625" y="29.0" width="54.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="872" y="38" style="font-family:sans-serif;font-size:10px;">
+instruction
+</text>
+<rect x="2495.671875" y="58.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2497" y="67" style="font-family:sans-serif;font-size:10px;">
+.
+</text>
+<rect x="600.9375" y="203.0" width="36.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="602" y="212" style="font-family:sans-serif;font-size:10px;">
+codigo
+</text>
+<rect x="2690.4375" y="174.0" width="64.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2692" y="183" style="font-family:sans-serif;font-size:10px;">
+componente
+</text>
+<rect x="884.8125" y="58.0" width="42.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="886" y="67" style="font-family:sans-serif;font-size:10px;">
+stepList
+</text>
+<rect x="1063.625" y="29.0" width="54.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1065" y="38" style="font-family:sans-serif;font-size:10px;">
+instruction
+</text>
+<rect x="1545.0625" y="203.0" width="44.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1547" y="212" style="font-family:sans-serif;font-size:10px;">
+superior
+</text>
+<rect x="879.1875" y="203.0" width="33.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="881" y="212" style="font-family:sans-serif;font-size:10px;">
+lateral
+</text>
+<rect x="3288.4375" y="174.0" width="64.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3290" y="183" style="font-family:sans-serif;font-size:10px;">
+componente
+</text>
+<rect x="901.0625" y="145.0" width="8.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="903" y="154" style="font-family:sans-serif;font-size:10px;">
+(
+</text>
+<rect x="508.4375" y="203.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="510" y="212" style="font-family:sans-serif;font-size:10px;">
+cantidad
+</text>
+<rect x="3507.4375" y="174.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3509" y="183" style="font-family:sans-serif;font-size:10px;">
+y
+</text>
+<rect x="2432.421875" y="29.0" width="54.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2434" y="38" style="font-family:sans-serif;font-size:10px;">
+instruction
+</text>
+<rect x="2607.5625" y="145.0" width="91.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2609" y="154" style="font-family:sans-serif;font-size:10px;">
+listaComponentes
+</text>
+<rect x="1288.3125" y="203.0" width="33.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1290" y="212" style="font-family:sans-serif;font-size:10px;">
+lateral
+</text>
+<rect x="2652.4375" y="203.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2654" y="212" style="font-family:sans-serif;font-size:10px;">
+cantidad
+</text>
+<rect x="1397.9375" y="58.0" width="8.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1399" y="67" style="font-family:sans-serif;font-size:10px;">
+-
+</text>
+<rect x="3188.0625" y="29.0" width="54.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3190" y="38" style="font-family:sans-serif;font-size:10px;">
+instruction
+</text>
+<rect x="2749.9375" y="232.0" width="40.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2751" y="241" style="font-family:sans-serif;font-size:10px;">
+117313
+</text>
+<rect x="3222.9375" y="145.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3224" y="154" style="font-family:sans-serif;font-size:10px;">
+atornillar
+</text>
+<rect x="234.1875" y="145.0" width="91.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="236" y="154" style="font-family:sans-serif;font-size:10px;">
+listaComponentes
+</text>
+<rect x="549.9375" y="232.0" width="42.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="551" y="241" style="font-family:sans-serif;font-size:10px;">
+espigas
+</text>
+<rect x="1543.9375" y="58.0" width="42.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1545" y="67" style="font-family:sans-serif;font-size:10px;">
+stepList
+</text>
+<rect x="303.4375" y="232.0" width="40.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="305" y="241" style="font-family:sans-serif;font-size:10px;">
+119371
+</text>
+<rect x="1741.125" y="58.0" width="8.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1743" y="67" style="font-family:sans-serif;font-size:10px;">
+-
+</text>
+<rect x="348.4375" y="203.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="350" y="212" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="3477.3125" y="203.0" width="21.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3479" y="212" style="font-family:sans-serif;font-size:10px;">
+tipo
+</text>
+<rect x="247.6875" y="174.0" width="64.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="249" y="183" style="font-family:sans-serif;font-size:10px;">
+componente
+</text>
+<rect x="1863.5625" y="203.0" width="36.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1865" y="212" style="font-family:sans-serif;font-size:10px;">
+codigo
+</text>
+<rect x="1940.0625" y="145.0" width="75.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1942" y="154" style="font-family:sans-serif;font-size:10px;">
+piezaConZona
+</text>
+<rect x="1145.3125" y="203.0" width="21.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1147" y="212" style="font-family:sans-serif;font-size:10px;">
+tipo
+</text>
+<rect x="2469.0625" y="174.0" width="69.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2471" y="183" style="font-family:sans-serif;font-size:10px;">
+destornillador
+</text>
+<rect x="68.1875" y="145.0" width="24.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="70" y="154" style="font-family:sans-serif;font-size:10px;">
+Con
+</text>
+<rect x="3453.8125" y="232.0" width="68.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3455" y="241" style="font-family:sans-serif;font-size:10px;">
+placas_metal
+</text>
+<rect x="3466.9375" y="145.0" width="91.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3468" y="154" style="font-family:sans-serif;font-size:10px;">
+listaComponentes
+</text>
+<rect x="2458.3125" y="116.0" width="82.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2460" y="125" style="font-family:sans-serif;font-size:10px;">
+conHerramienta
+</text>
+<rect x="2313.0625" y="87.0" width="25.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2315" y="96" style="font-family:sans-serif;font-size:10px;">
+step
+</text>
+<rect x="3701.8125" y="232.0" width="44.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3703" y="241" style="font-family:sans-serif;font-size:10px;">
+superior
+</text>
+<rect x="1448.4375" y="145.0" width="16.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1450" y="154" style="font-family:sans-serif;font-size:10px;">
+en
+</text>
+<rect x="3188.8125" y="58.0" width="8.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3190" y="67" style="font-family:sans-serif;font-size:10px;">
+-
+</text>
+<rect x="1045.875" y="58.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1047" y="67" style="font-family:sans-serif;font-size:10px;">
+4
+</text>
+<rect x="979.0625" y="145.0" width="62.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="981" y="154" style="font-family:sans-serif;font-size:10px;">
+herramienta
+</text>
+<rect x="1412.9375" y="116.0" width="42.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1414" y="125" style="font-family:sans-serif;font-size:10px;">
+deslizar
+</text>
+<rect x="3542.625" y="87.0" width="25.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3544" y="96" style="font-family:sans-serif;font-size:10px;">
+step
+</text>
+<rect x="784.1875" y="203.0" width="28.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="786" y="212" style="font-family:sans-serif;font-size:10px;">
+base
+</text>
+<rect x="3528.8125" y="232.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3530" y="241" style="font-family:sans-serif;font-size:10px;">
+2
+</text>
+<rect x="40.0" y="58.0" width="119.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="42" y="67" style="font-family:sans-serif;font-size:10px;">
+SMAGORA_VERTICAL
+</text>
+<rect x="852.8125" y="58.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="854" y="67" style="font-family:sans-serif;font-size:10px;">
+3
+</text>
+<rect x="3419.3125" y="203.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3421" y="212" style="font-family:sans-serif;font-size:10px;">
+cantidad
+</text>
+<rect x="2987.6875" y="116.0" width="39.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2989" y="125" style="font-family:sans-serif;font-size:10px;">
+marcar
+</text>
+<rect x="2551.6875" y="174.0" width="64.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2553" y="183" style="font-family:sans-serif;font-size:10px;">
+componente
+</text>
+<rect x="3511.3125" y="203.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3513" y="212" style="font-family:sans-serif;font-size:10px;">
+cantidad
+</text>
+<rect x="2307.0625" y="116.0" width="37.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2309" y="125" style="font-family:sans-serif;font-size:10px;">
+voltear
+</text>
+<rect x="2096.3125" y="174.0" width="64.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2098" y="183" style="font-family:sans-serif;font-size:10px;">
+componente
+</text>
+<rect x="3535.125" y="116.0" width="40.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3537" y="125" style="font-family:sans-serif;font-size:10px;">
+colocar
+</text>
+<rect x="3417.9375" y="145.0" width="42.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3419" y="154" style="font-family:sans-serif;font-size:10px;">
+Colocar
+</text>
+<rect x="1048.0625" y="145.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1050" y="154" style="font-family:sans-serif;font-size:10px;">
+,
+</text>
+<rect x="3379.4375" y="87.0" width="25.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3381" y="96" style="font-family:sans-serif;font-size:10px;">
+step
+</text>
+<rect x="1906.5625" y="203.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1908" y="212" style="font-family:sans-serif;font-size:10px;">
+4
+</text>
+<rect x="1560.4375" y="145.0" width="56.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1562" y="154" style="font-family:sans-serif;font-size:10px;">
+listaPiezas
+</text>
+<rect x="723.625" y="58.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="725" y="67" style="font-family:sans-serif;font-size:10px;">
+.
+</text>
+<rect x="855.0625" y="145.0" width="39.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="857" y="154" style="font-family:sans-serif;font-size:10px;">
+Repetir
+</text>
+<rect x="2431.671875" y="58.0" width="8.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2433" y="67" style="font-family:sans-serif;font-size:10px;">
+-
+</text>
+<rect x="2607.4375" y="232.0" width="40.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2609" y="241" style="font-family:sans-serif;font-size:10px;">
+107716
+</text>
+<rect x="2306.5625" y="145.0" width="38.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2308" y="154" style="font-family:sans-serif;font-size:10px;">
+Voltear
+</text>
+<rect x="560.4375" y="203.0" width="21.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="562" y="212" style="font-family:sans-serif;font-size:10px;">
+tipo
+</text>
+<rect x="385.4375" y="203.0" width="28.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="387" y="212" style="font-family:sans-serif;font-size:10px;">
+base
+</text>
+<rect x="1461.9375" y="58.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1463" y="67" style="font-family:sans-serif;font-size:10px;">
+.
+</text>
+<rect x="2029.5625" y="203.0" width="28.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2031" y="212" style="font-family:sans-serif;font-size:10px;">
+zona
+</text>
+<rect x="2116.5625" y="203.0" width="21.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2118" y="212" style="font-family:sans-serif;font-size:10px;">
+tipo
+</text>
+<rect x="574.1875" y="116.0" width="41.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="576" y="125" style="font-family:sans-serif;font-size:10px;">
+insertar
+</text>
+<rect x="2247.0625" y="174.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2249" y="183" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="2952.9375" y="145.0" width="22.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2954" y="154" style="font-family:sans-serif;font-size:10px;">
+con
+</text>
+<rect x="84.9375" y="116.0" width="82.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="86" y="125" style="font-family:sans-serif;font-size:10px;">
+conHerramienta
+</text>
+<rect x="3203.8125" y="58.0" width="42.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3205" y="67" style="font-family:sans-serif;font-size:10px;">
+stepList
+</text>
+<rect x="265.4375" y="203.0" width="21.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="267" y="212" style="font-family:sans-serif;font-size:10px;">
+tipo
+</text>
+<rect x="529.4375" y="145.0" width="91.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="531" y="154" style="font-family:sans-serif;font-size:10px;">
+listaComponentes
+</text>
+<rect x="1596.0625" y="203.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1598" y="212" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="1062.0625" y="145.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1064" y="154" style="font-family:sans-serif;font-size:10px;">
+atornillar
+</text>
+<rect x="1771.5625" y="203.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1773" y="212" style="font-family:sans-serif;font-size:10px;">
+cantidad
+</text>
+<rect x="2379.8125" y="87.0" width="25.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2381" y="96" style="font-family:sans-serif;font-size:10px;">
+step
+</text>
+<rect x="227.9375" y="232.0" width="16.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="229" y="241" style="font-family:sans-serif;font-size:10px;">
+16
+</text>
+<rect x="1135.3125" y="232.0" width="41.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1137" y="241" style="font-family:sans-serif;font-size:10px;">
+tornillos
+</text>
+<rect x="3437.53125" y="58.0" width="8.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3439" y="67" style="font-family:sans-serif;font-size:10px;">
+-
+</text>
+<rect x="1805.8125" y="174.0" width="64.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1807" y="183" style="font-family:sans-serif;font-size:10px;">
+componente
+</text>
+<rect x="3373.9375" y="116.0" width="36.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3375" y="125" style="font-family:sans-serif;font-size:10px;">
+nivelar
+</text>
+<rect x="391.4375" y="145.0" width="56.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="393" y="154" style="font-family:sans-serif;font-size:10px;">
+listaPiezas
+</text>
+<rect x="2824.9375" y="145.0" width="75.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2826" y="154" style="font-family:sans-serif;font-size:10px;">
+piezaConZona
+</text>
+<rect x="183.75" y="29.0" width="54.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="185" y="38" style="font-family:sans-serif;font-size:10px;">
+instruction
+</text>
+<rect x="2569.4375" y="203.0" width="21.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2571" y="212" style="font-family:sans-serif;font-size:10px;">
+tipo
+</text>
+<rect x="3526.78125" y="29.0" width="39.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3528" y="38" style="font-family:sans-serif;font-size:10px;">
+&lt;EOF&gt;
+</text>
+<rect x="2231.5625" y="203.0" width="39.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2233" y="212" style="font-family:sans-serif;font-size:10px;">
+mueble
+</text>
+<rect x="213.4375" y="203.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="215" y="212" style="font-family:sans-serif;font-size:10px;">
+cantidad
+</text>
+<rect x="1412.9375" y="58.0" width="42.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1414" y="67" style="font-family:sans-serif;font-size:10px;">
+stepList
+</text>
+<rect x="650.4375" y="145.0" width="75.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="652" y="154" style="font-family:sans-serif;font-size:10px;">
+piezaConZona
+</text>
+<rect x="1403.0625" y="174.0" width="71.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1405" y="183" style="font-family:sans-serif;font-size:10px;">
+panel_trasero
+</text>
+<rect x="2753.75" y="145.0" width="16.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2755" y="154" style="font-family:sans-serif;font-size:10px;">
+en
+</text>
+<rect x="2105.4375" y="58.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2107" y="67" style="font-family:sans-serif;font-size:10px;">
+8
+</text>
+<rect x="2414.671875" y="58.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2416" y="67" style="font-family:sans-serif;font-size:10px;">
+9
+</text>
+<rect x="457.4375" y="203.0" width="44.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="459" y="212" style="font-family:sans-serif;font-size:10px;">
+superior
+</text>
+<rect x="414.4375" y="174.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="416" y="183" style="font-family:sans-serif;font-size:10px;">
+y
+</text>
+<rect x="1169.4375" y="116.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1171" y="125" style="font-family:sans-serif;font-size:10px;">
+atornillar
+</text>
+<rect x="836.1875" y="203.0" width="36.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="838" y="212" style="font-family:sans-serif;font-size:10px;">
+piezas
+</text>
+<rect x="1756.125" y="58.0" width="42.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1758" y="67" style="font-family:sans-serif;font-size:10px;">
+stepList
+</text>
+<rect x="784.0625" y="87.0" width="25.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="786" y="96" style="font-family:sans-serif;font-size:10px;">
+step
+</text>
+<rect x="1740.3125" y="145.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1742" y="154" style="font-family:sans-serif;font-size:10px;">
+atornillar
+</text>
+<rect x="305.4375" y="203.0" width="36.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="307" y="212" style="font-family:sans-serif;font-size:10px;">
+codigo
+</text>
+<rect x="815.0625" y="174.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="817" y="183" style="font-family:sans-serif;font-size:10px;">
+y
+</text>
+<rect x="1643.0625" y="116.0" width="82.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1645" y="125" style="font-family:sans-serif;font-size:10px;">
+conHerramienta
+</text>
+<rect x="3136.4375" y="174.0" width="69.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3138" y="183" style="font-family:sans-serif;font-size:10px;">
+destornillador
+</text>
+<rect x="3545.8125" y="232.0" width="81.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3547" y="241" style="font-family:sans-serif;font-size:10px;">
+embellecedores
+</text>
+<rect x="2648.0625" y="174.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2650" y="183" style="font-family:sans-serif;font-size:10px;">
+y
+</text>
+<rect x="2686.9375" y="232.0" width="56.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2688" y="241" style="font-family:sans-serif;font-size:10px;">
+escuadras
+</text>
+<rect x="893.3125" y="87.0" width="25.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="895" y="96" style="font-family:sans-serif;font-size:10px;">
+step
+</text>
+<rect x="1346.8125" y="232.0" width="37.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1348" y="241" style="font-family:sans-serif;font-size:10px;">
+inferior
+</text>
+<rect x="350.3125" y="145.0" width="16.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="352" y="154" style="font-family:sans-serif;font-size:10px;">
+en
+</text>
+<rect x="672.9375" y="174.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="674" y="183" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="1583.4375" y="174.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1585" y="183" style="font-family:sans-serif;font-size:10px;">
+y
+</text>
+<rect x="1616.8125" y="174.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1618" y="183" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="2300.5625" y="203.0" width="28.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2302" y="212" style="font-family:sans-serif;font-size:10px;">
+zona
+</text>
+<rect x="2186.4375" y="58.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2188" y="67" style="font-family:sans-serif;font-size:10px;">
+.
+</text>
+<rect x="2794.9375" y="203.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2796" y="212" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="1086.375" y="87.0" width="25.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1088" y="96" style="font-family:sans-serif;font-size:10px;">
+step
+</text>
+<rect x="1813.5625" y="232.0" width="41.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1815" y="241" style="font-family:sans-serif;font-size:10px;">
+tornillos
+</text>
+<rect x="2697.75" y="116.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2699" y="125" style="font-family:sans-serif;font-size:10px;">
+atornillar
+</text>
+<rect x="3071.9375" y="174.0" width="32.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3073" y="183" style="font-family:sans-serif;font-size:10px;">
+pared
+</text>
+<rect x="3346.1875" y="203.0" width="36.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3348" y="212" style="font-family:sans-serif;font-size:10px;">
+codigo
+</text>
+<rect x="2123.1875" y="29.0" width="54.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2125" y="38" style="font-family:sans-serif;font-size:10px;">
+instruction
+</text>
+<rect x="844.9375" y="174.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="846" y="183" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="3252.8125" y="58.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3254" y="67" style="font-family:sans-serif;font-size:10px;">
+.
+</text>
+<rect x="3470.03125" y="87.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3472" y="96" style="font-family:sans-serif;font-size:10px;">
+;
+</text>
+<rect x="3686.8125" y="203.0" width="16.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3688" y="212" style="font-family:sans-serif;font-size:10px;">
+en
+</text>
+<rect x="1511.9375" y="58.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1513" y="67" style="font-family:sans-serif;font-size:10px;">
+6
+</text>
+<rect x="2669.9375" y="232.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2671" y="241" style="font-family:sans-serif;font-size:10px;">
+2
+</text>
+<rect x="255.4375" y="232.0" width="41.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="257" y="241" style="font-family:sans-serif;font-size:10px;">
+tornillos
+</text>
+<rect x="2381.8125" y="116.0" width="21.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2383" y="125" style="font-family:sans-serif;font-size:10px;">
+fijar
+</text>
+<rect x="3212.3125" y="87.0" width="25.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3214" y="96" style="font-family:sans-serif;font-size:10px;">
+step
+</text>
+<rect x="166.0" y="58.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="168" y="67" style="font-family:sans-serif;font-size:10px;">
+1
+</text>
+<rect x="2999.9375" y="174.0" width="26.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3001" y="183" style="font-family:sans-serif;font-size:10px;">
+lápiz
+</text>
+<rect x="95.6875" y="174.0" width="69.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="97" y="183" style="font-family:sans-serif;font-size:10px;">
+destornillador
+</text>
+<rect x="765.1875" y="174.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="767" y="183" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="2948.1875" y="58.0" width="16.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2950" y="67" style="font-family:sans-serif;font-size:10px;">
+10
+</text>
+<rect x="0.0" y="58.0" width="33.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2" y="67" style="font-family:sans-serif;font-size:10px;">
+ITEM:
+</text>
+<rect x="480.4375" y="145.0" width="42.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="482" y="154" style="font-family:sans-serif;font-size:10px;">
+Insertar
+</text>
+<rect x="3208.9375" y="145.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3210" y="154" style="font-family:sans-serif;font-size:10px;">
+,
+</text>
+<rect x="964.8125" y="116.0" width="82.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="966" y="125" style="font-family:sans-serif;font-size:10px;">
+conHerramienta
+</text>
+<rect x="442.4375" y="174.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="444" y="183" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="525.9375" y="232.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="527" y="241" style="font-family:sans-serif;font-size:10px;">
+8
+</text>
+<rect x="3254.1875" y="203.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3256" y="212" style="font-family:sans-serif;font-size:10px;">
+cantidad
+</text>
+<rect x="1962.5625" y="174.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1964" y="183" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="3436.78125" y="29.0" width="54.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3438" y="38" style="font-family:sans-serif;font-size:10px;">
+instruction
+</text>
+<rect x="1741.875" y="29.0" width="54.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1743" y="38" style="font-family:sans-serif;font-size:10px;">
+instruction
+</text>
+<rect x="1481.0625" y="174.0" width="42.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1483" y="183" style="font-family:sans-serif;font-size:10px;">
+ranuras
+</text>
+<rect x="2122.4375" y="58.0" width="8.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2124" y="67" style="font-family:sans-serif;font-size:10px;">
+-
+</text>
+<rect x="627.4375" y="145.0" width="16.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="629" y="154" style="font-family:sans-serif;font-size:10px;">
+en
+</text>
+<rect x="2541.5625" y="145.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2543" y="154" style="font-family:sans-serif;font-size:10px;">
+,
+</text>
+<rect x="761.0625" y="145.0" width="24.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="763" y="154" style="font-family:sans-serif;font-size:10px;">
+Unir
+</text>
+<rect x="1225.4375" y="145.0" width="16.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1227" y="154" style="font-family:sans-serif;font-size:10px;">
+en
+</text>
+<rect x="3587.875" y="145.0" width="16.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3589" y="154" style="font-family:sans-serif;font-size:10px;">
+en
+</text>
+<rect x="2446.671875" y="58.0" width="42.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2448" y="67" style="font-family:sans-serif;font-size:10px;">
+stepList
+</text>
+<rect x="183.0" y="58.0" width="8.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="185" y="67" style="font-family:sans-serif;font-size:10px;">
+-
+</text>
+<rect x="2892.9375" y="232.0" width="44.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2894" y="241" style="font-family:sans-serif;font-size:10px;">
+superior
+</text>
+<rect x="3452.53125" y="58.0" width="42.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3454" y="67" style="font-family:sans-serif;font-size:10px;">
+stepList
+</text>
+<rect x="28.0" y="29.0" width="60.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="30" y="38" style="font-family:sans-serif;font-size:10px;">
+itemHeader
+</text>
+<rect x="1394.8125" y="145.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1396" y="154" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="3432.8125" y="174.0" width="64.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3434" y="183" style="font-family:sans-serif;font-size:10px;">
+componente
+</text>
+<rect x="1284.3125" y="174.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1286" y="183" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="1553.9375" y="116.0" width="22.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1555" y="125" style="font-family:sans-serif;font-size:10px;">
+unir
+</text>
+<rect x="420.4375" y="203.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="422" y="212" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="1823.5625" y="203.0" width="21.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1825" y="212" style="font-family:sans-serif;font-size:10px;">
+tipo
+</text>
+<rect x="2559.4375" y="232.0" width="41.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2561" y="241" style="font-family:sans-serif;font-size:10px;">
+tornillos
+</text>
+<rect x="3274.9375" y="145.0" width="91.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3276" y="154" style="font-family:sans-serif;font-size:10px;">
+listaComponentes
+</text>
+<rect x="2517.4375" y="203.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2519" y="212" style="font-family:sans-serif;font-size:10px;">
+cantidad
+</text>
+<rect x="182.1875" y="145.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="184" y="154" style="font-family:sans-serif;font-size:10px;">
+atornillar
+</text>
+<rect x="3497.78125" y="29.0" width="22.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3499" y="38" style="font-family:sans-serif;font-size:10px;">
+FIN
+</text>
+<rect x="1228.3125" y="203.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1230" y="212" style="font-family:sans-serif;font-size:10px;">
+4
+</text>
+<rect x="2534.9375" y="232.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2536" y="241" style="font-family:sans-serif;font-size:10px;">
+4
+</text>
+<rect x="3139.9375" y="145.0" width="62.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3141" y="154" style="font-family:sans-serif;font-size:10px;">
+herramienta
+</text>
+<rect x="2751.9375" y="203.0" width="36.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2753" y="212" style="font-family:sans-serif;font-size:10px;">
+codigo
+</text>
+<rect x="289.5625" y="116.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="291" y="125" style="font-family:sans-serif;font-size:10px;">
+atornillar
+</text>
+<rect x="3296.1875" y="232.0" width="41.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3298" y="241" style="font-family:sans-serif;font-size:10px;">
+tornillos
+</text>
+<rect x="3575.8125" y="203.0" width="21.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3577" y="212" style="font-family:sans-serif;font-size:10px;">
+tipo
+</text>
+<rect x="664.1875" y="203.0" width="36.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="666" y="212" style="font-family:sans-serif;font-size:10px;">
+piezas
+</text>
+<rect x="642.625" y="58.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="644" y="67" style="font-family:sans-serif;font-size:10px;">
+2
+</text>
+<rect x="3372.9375" y="145.0" width="38.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3374" y="154" style="font-family:sans-serif;font-size:10px;">
+Nivelar
+</text>
+<rect x="3603.8125" y="203.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3605" y="212" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="3436.8125" y="232.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3438" y="241" style="font-family:sans-serif;font-size:10px;">
+2
+</text>
+<rect x="2970.4375" y="29.0" width="54.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2972" y="38" style="font-family:sans-serif;font-size:10px;">
+instruction
+</text>
+<rect x="2021.5625" y="232.0" width="44.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2023" y="241" style="font-family:sans-serif;font-size:10px;">
+superior
+</text>
+<rect x="792.0625" y="145.0" width="56.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="794" y="154" style="font-family:sans-serif;font-size:10px;">
+listaPiezas
+</text>
+<rect x="3501.53125" y="58.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3503" y="67" style="font-family:sans-serif;font-size:10px;">
+.
+</text>
+<rect x="2497.546875" y="87.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2499" y="96" style="font-family:sans-serif;font-size:10px;">
+;
+</text>
+<rect x="659.625" y="58.0" width="8.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="661" y="67" style="font-family:sans-serif;font-size:10px;">
+-
+</text>
+<rect x="2224.5625" y="145.0" width="75.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2226" y="154" style="font-family:sans-serif;font-size:10px;">
+piezaConZona
+</text>
+<rect x="1847.6875" y="116.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1849" y="125" style="font-family:sans-serif;font-size:10px;">
+atornillar
+</text>
+<rect x="1529.6875" y="29.0" width="54.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1531" y="38" style="font-family:sans-serif;font-size:10px;">
+instruction
+</text>
+<rect x="2151.5625" y="203.0" width="36.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2153" y="212" style="font-family:sans-serif;font-size:10px;">
+codigo
+</text>
+<rect x="2145.9375" y="87.0" width="25.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2147" y="96" style="font-family:sans-serif;font-size:10px;">
+step
+</text>
+<rect x="1861.5625" y="232.0" width="40.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1863" y="241" style="font-family:sans-serif;font-size:10px;">
+119252
+</text>
+<rect x="1657.3125" y="145.0" width="62.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1659" y="154" style="font-family:sans-serif;font-size:10px;">
+herramienta
+</text>
+<rect x="785.5625" y="116.0" width="22.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="787" y="125" style="font-family:sans-serif;font-size:10px;">
+unir
+</text>
+<rect x="3050.9375" y="145.0" width="16.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3052" y="154" style="font-family:sans-serif;font-size:10px;">
+en
+</text>
+<rect x="1366.0625" y="174.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1368" y="183" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="1724.125" y="58.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1726" y="67" style="font-family:sans-serif;font-size:10px;">
+7
+</text>
+<rect x="1792.3125" y="145.0" width="91.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1794" y="154" style="font-family:sans-serif;font-size:10px;">
+listaComponentes
+</text>
+<rect x="1552.4375" y="87.0" width="25.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1554" y="96" style="font-family:sans-serif;font-size:10px;">
+step
+</text>
+<rect x="888.3125" y="116.0" width="35.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="890" y="125" style="font-family:sans-serif;font-size:10px;">
+repetir
+</text>
+<rect x="3035.1875" y="58.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3037" y="67" style="font-family:sans-serif;font-size:10px;">
+.
+</text>
+<rect x="2006.5625" y="203.0" width="16.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2008" y="212" style="font-family:sans-serif;font-size:10px;">
+en
+</text>
+<rect x="1183.3125" y="232.0" width="40.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1185" y="241" style="font-family:sans-serif;font-size:10px;">
+119252
+</text>
+<rect x="2138.4375" y="116.0" width="40.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2140" y="125" style="font-family:sans-serif;font-size:10px;">
+colocar
+</text>
+<rect x="1261.8125" y="145.0" width="75.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1263" y="154" style="font-family:sans-serif;font-size:10px;">
+piezaConZona
+</text>
+<rect x="2472.5625" y="145.0" width="62.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2474" y="154" style="font-family:sans-serif;font-size:10px;">
+herramienta
+</text>
+<rect x="2831.9375" y="203.0" width="39.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2833" y="212" style="font-family:sans-serif;font-size:10px;">
+mueble
+</text>
+<rect x="2971.1875" y="58.0" width="8.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2973" y="67" style="font-family:sans-serif;font-size:10px;">
+-
+</text>
+<rect x="933.0625" y="145.0" width="8.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="935" y="154" style="font-family:sans-serif;font-size:10px;">
+)
+</text>
+<rect x="3271.6875" y="232.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3273" y="241" style="font-family:sans-serif;font-size:10px;">
+2
+</text>
+<rect x="582.1875" y="87.0" width="25.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="584" y="96" style="font-family:sans-serif;font-size:10px;">
+step
+</text>
+<rect x="2994.6875" y="87.0" width="25.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2996" y="96" style="font-family:sans-serif;font-size:10px;">
+step
+</text>
+<rect x="819.1875" y="203.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="821" y="212" style="font-family:sans-serif;font-size:10px;">
+2
+</text>
+<rect x="1343.8125" y="145.0" width="44.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1345" y="154" style="font-family:sans-serif;font-size:10px;">
+Deslizar
+</text>
+<rect x="1789.0625" y="232.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1791" y="241" style="font-family:sans-serif;font-size:10px;">
+8
+</text>
+<rect x="1328.3125" y="203.0" width="16.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1330" y="212" style="font-family:sans-serif;font-size:10px;">
+en
+</text>
+<rect x="1062.875" y="58.0" width="8.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1064" y="67" style="font-family:sans-serif;font-size:10px;">
+-
+</text>
+<rect x="2082.0625" y="232.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2084" y="241" style="font-family:sans-serif;font-size:10px;">
+4
+</text>
+<rect x="2404.5625" y="174.0" width="32.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2406" y="183" style="font-family:sans-serif;font-size:10px;">
+pared
+</text>
+<rect x="2609.4375" y="203.0" width="36.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2611" y="212" style="font-family:sans-serif;font-size:10px;">
+codigo
+</text>
+<rect x="933.8125" y="58.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="935" y="67" style="font-family:sans-serif;font-size:10px;">
+.
+</text>
+<rect x="869.8125" y="58.0" width="8.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="871" y="67" style="font-family:sans-serif;font-size:10px;">
+-
+</text>
+<rect x="1398.6875" y="29.0" width="54.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1400" y="38" style="font-family:sans-serif;font-size:10px;">
+instruction
+</text>
+<rect x="1764.625" y="87.0" width="25.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1766" y="96" style="font-family:sans-serif;font-size:10px;">
+step
+</text>
+<rect x="3528.0625" y="174.0" width="64.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3530" y="183" style="font-family:sans-serif;font-size:10px;">
+componente
+</text>
+<rect x="1528.9375" y="58.0" width="8.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1530" y="67" style="font-family:sans-serif;font-size:10px;">
+-
+</text>
+<rect x="3306.1875" y="203.0" width="21.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3308" y="212" style="font-family:sans-serif;font-size:10px;">
+tipo
+</text>
+<rect x="2555.5625" y="145.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2557" y="154" style="font-family:sans-serif;font-size:10px;">
+atornillar
+</text>
+<rect x="1077.875" y="58.0" width="42.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1079" y="67" style="font-family:sans-serif;font-size:10px;">
+stepList
+</text>
+<rect x="1508.0625" y="203.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1510" y="212" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="1093.3125" y="203.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1095" y="212" style="font-family:sans-serif;font-size:10px;">
+cantidad
+</text>
+<rect x="2877.9375" y="203.0" width="16.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2879" y="212" style="font-family:sans-serif;font-size:10px;">
+en
+</text>
+<rect x="2277.5625" y="203.0" width="16.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2279" y="212" style="font-family:sans-serif;font-size:10px;">
+en
+</text>
+<rect x="660.375" y="29.0" width="54.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="662" y="38" style="font-family:sans-serif;font-size:10px;">
+instruction
+</text>
+<rect x="1114.0625" y="145.0" width="91.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1116" y="154" style="font-family:sans-serif;font-size:10px;">
+listaComponentes
+</text>
+<rect x="1653.8125" y="174.0" width="69.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1655" y="183" style="font-family:sans-serif;font-size:10px;">
+destornillador
+</text>
+<rect x="3344.1875" y="232.0" width="40.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3346" y="241" style="font-family:sans-serif;font-size:10px;">
+110646
+</text>
+<rect x="2847.4375" y="174.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2849" y="183" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="2597.28125" y="87.0" width="25.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2599" y="96" style="font-family:sans-serif;font-size:10px;">
+step
+</text>
+<rect x="1127.5625" y="174.0" width="64.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1129" y="183" style="font-family:sans-serif;font-size:10px;">
+componente
+</text>
+<rect x="647.1875" y="203.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="649" y="212" style="font-family:sans-serif;font-size:10px;">
+2
+</text>
+<rect x="366.4375" y="174.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="368" y="183" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="2137.4375" y="58.0" width="42.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2139" y="67" style="font-family:sans-serif;font-size:10px;">
+stepList
+</text>
+<rect x="948.0625" y="145.0" width="24.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="950" y="154" style="font-family:sans-serif;font-size:10px;">
+Con
+</text>
+<rect x="1245.3125" y="203.0" width="36.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1247" y="212" style="font-family:sans-serif;font-size:10px;">
+piezas
+</text>
+<rect x="1805.125" y="58.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1807" y="67" style="font-family:sans-serif;font-size:10px;">
+.
+</text>
+<rect x="3709.8125" y="203.0" width="28.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3711" y="212" style="font-family:sans-serif;font-size:10px;">
+zona
+</text>
+<rect x="674.625" y="58.0" width="42.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="676" y="67" style="font-family:sans-serif;font-size:10px;">
+stepList
+</text>
+<rect x="598.9375" y="232.0" width="40.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="600" y="241" style="font-family:sans-serif;font-size:10px;">
+101354
+</text>
+<rect x="2351.5625" y="145.0" width="25.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2353" y="154" style="font-family:sans-serif;font-size:10px;">
+Fijar
+</text>
+<rect x="2981.9375" y="145.0" width="62.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2983" y="154" style="font-family:sans-serif;font-size:10px;">
+herramienta
+</text>
+<rect x="1110.8125" y="232.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1112" y="241" style="font-family:sans-serif;font-size:10px;">
+8
+</text>
+<rect x="1633.0625" y="203.0" width="39.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1635" y="212" style="font-family:sans-serif;font-size:10px;">
+mueble
+</text>
+<rect x="2704.4375" y="203.0" width="21.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2706" y="212" style="font-family:sans-serif;font-size:10px;">
+tipo
+</text>
+<rect x="707.1875" y="203.0" width="33.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="709" y="212" style="font-family:sans-serif;font-size:10px;">
+lateral
+</text>
+<rect x="1185.3125" y="203.0" width="36.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1187" y="212" style="font-family:sans-serif;font-size:10px;">
+codigo
+</text>
+<rect x="1903.6875" y="145.0" width="16.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1905" y="154" style="font-family:sans-serif;font-size:10px;">
+en
+</text>
+<rect x="692.125" y="87.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="694" y="96" style="font-family:sans-serif;font-size:10px;">
+;
+</text>
+<rect x="2149.5625" y="232.0" width="40.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2151" y="241" style="font-family:sans-serif;font-size:10px;">
+123263
+</text>
+<rect x="1530.0625" y="174.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1532" y="183" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="1488.0625" y="145.0" width="28.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1490" y="154" style="font-family:sans-serif;font-size:10px;">
+zona
+</text>
+<rect x="1529.4375" y="145.0" width="24.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1531" y="154" style="font-family:sans-serif;font-size:10px;">
+Unir
+</text>
+<rect x="247.0" y="58.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="249" y="67" style="font-family:sans-serif;font-size:10px;">
+.
+</text>
+<rect x="916.0625" y="145.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="918" y="154" style="font-family:sans-serif;font-size:10px;">
+2
+</text>
+<rect x="1380.9375" y="58.0" width="10.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1382" y="67" style="font-family:sans-serif;font-size:10px;">
+5
+</text>
+<rect x="1966.5625" y="203.0" width="33.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1968" y="212" style="font-family:sans-serif;font-size:10px;">
+lateral
+</text>
+<rect x="2355.4375" y="87.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2357" y="96" style="font-family:sans-serif;font-size:10px;">
+;
+</text>
+<rect x="198.0" y="58.0" width="42.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="200" y="67" style="font-family:sans-serif;font-size:10px;">
+stepList
+</text>
+<rect x="2296.0625" y="232.0" width="37.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2298" y="241" style="font-family:sans-serif;font-size:10px;">
+inferior
+</text>
+<rect x="2900.9375" y="203.0" width="28.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2902" y="212" style="font-family:sans-serif;font-size:10px;">
+zona
+</text>
+<rect x="206.5" y="87.0" width="25.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="208" y="96" style="font-family:sans-serif;font-size:10px;">
+step
+</text>
+<rect x="2906.9375" y="145.0" width="39.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2908" y="154" style="font-family:sans-serif;font-size:10px;">
+Marcar
+</text>
+<rect x="3165.8125" y="58.0" width="16.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3167" y="67" style="font-family:sans-serif;font-size:10px;">
+11
+</text>
+<rect x="2111.5625" y="232.0" width="31.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2113" y="241" style="font-family:sans-serif;font-size:10px;">
+tapas
+</text>
+<rect x="3125.6875" y="116.0" width="82.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3127" y="125" style="font-family:sans-serif;font-size:10px;">
+conHerramienta
+</text>
+<rect x="1351.3125" y="203.0" width="28.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1353" y="212" style="font-family:sans-serif;font-size:10px;">
+zona
+</text>
+<rect x="3260.4375" y="116.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3262" y="125" style="font-family:sans-serif;font-size:10px;">
+atornillar
+</text>
+<rect x="1782.640625" y="0.0" width="39.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1784" y="9" style="font-family:sans-serif;font-size:10px;">
+manual
+</text>
+<rect x="1592.9375" y="58.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1594" y="67" style="font-family:sans-serif;font-size:10px;">
+.
+</text>
+<rect x="2406.5625" y="145.0" width="28.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2408" y="154" style="font-family:sans-serif;font-size:10px;">
+zona
+</text>
+<rect x="542.9375" y="174.0" width="64.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="544" y="183" style="font-family:sans-serif;font-size:10px;">
+componente
+</text>
+<rect x="975.5625" y="174.0" width="69.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="977" y="183" style="font-family:sans-serif;font-size:10px;">
+destornillador
+</text>
+<rect x="3633.8125" y="145.0" width="75.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3635" y="154" style="font-family:sans-serif;font-size:10px;">
+piezaConZona
+</text>
+<rect x="1626.3125" y="145.0" width="24.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1628" y="154" style="font-family:sans-serif;font-size:10px;">
+Con
+</text>
+<rect x="1126.875" y="58.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1128" y="67" style="font-family:sans-serif;font-size:10px;">
+.
+</text>
+<rect x="2082.8125" y="145.0" width="91.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2084" y="154" style="font-family:sans-serif;font-size:10px;">
+listaComponentes
+</text>
+<rect x="747.1875" y="203.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="749" y="212" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="168.1875" y="145.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="170" y="154" style="font-family:sans-serif;font-size:10px;">
+,
+</text>
+<rect x="3073.9375" y="145.0" width="28.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3075" y="154" style="font-family:sans-serif;font-size:10px;">
+zona
+</text>
+<rect x="1726.3125" y="145.0" width="7.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1728" y="154" style="font-family:sans-serif;font-size:10px;">
+,
+</text>
+<rect x="2191.1875" y="145.0" width="16.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2193" y="154" style="font-family:sans-serif;font-size:10px;">
+en
+</text>
+<rect x="99.1875" y="145.0" width="62.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="101" y="154" style="font-family:sans-serif;font-size:10px;">
+herramienta
+</text>
+<rect x="1923.5625" y="203.0" width="36.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1925" y="212" style="font-family:sans-serif;font-size:10px;">
+piezas
+</text>
+<rect x="3108.9375" y="145.0" width="24.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3110" y="154" style="font-family:sans-serif;font-size:10px;">
+Con
+</text>
+<rect x="2064.5625" y="203.0" width="45.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2066" y="212" style="font-family:sans-serif;font-size:10px;">
+cantidad
+</text>
+<rect x="2194.5625" y="203.0" width="30.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2196" y="212" style="font-family:sans-serif;font-size:10px;">
+pieza
+</text>
+<rect x="2441.5625" y="145.0" width="24.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2443" y="154" style="font-family:sans-serif;font-size:10px;">
+Con
+</text>
+<rect x="1421.4375" y="87.0" width="25.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="1423" y="96" style="font-family:sans-serif;font-size:10px;">
+step
+</text>
+<rect x="2033.8125" y="145.0" width="42.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2035" y="154" style="font-family:sans-serif;font-size:10px;">
+Colocar
+</text>
+<rect x="2383.5625" y="145.0" width="16.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2385" y="154" style="font-family:sans-serif;font-size:10px;">
+en
+</text>
+<rect x="2986.1875" y="58.0" width="42.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2988" y="67" style="font-family:sans-serif;font-size:10px;">
+stepList
+</text>
+<rect x="3414.53125" y="58.0" width="16.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3416" y="67" style="font-family:sans-serif;font-size:10px;">
+12
+</text>
+<rect x="3640.8125" y="203.0" width="39.0" height="12.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="3642" y="212" style="font-family:sans-serif;font-size:10px;">
+mueble
+</text>
+</svg>
