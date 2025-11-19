@@ -399,4 +399,4 @@ ID   : [a-zA-Z_áéíóúÁÉÍÓÚñÑ][a-zA-Z_0-9áéíóúÁÉÍÓÚñÑ]* ;
  * Token que define espacios en blanco.
  * Incluye espacios, tabulaciones y saltos de línea, que se ignoran durante el análisis.
  */
-WS   : [ \t\r\n\u00A0\u2000-\u200B\u202F\u205F\u3000\uFEFF\u200C\u200D\u200E\u200F\u2060]+ -> skip ;f
+WS   : [ \t\r\n\u00A0\u2000-\u200B\u202F\u205F\u3000\uFEFF\u200C\u200D\u200E\u200F\u2060]+ -> skip ;
