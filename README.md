@@ -53,3 +53,7 @@ The CSV and E++ programs ask for an input file (for example `../archivos-prueba/
 - Adrián Morales Rodríguez ([@crest4s](https://github.com/crest4s))
 - [@aliciasiguenza](https://github.com/aliciasiguenza)
 - [@avuren13](https://github.com/avuren13)
+
+## License
+
+[MIT](LICENSE)
