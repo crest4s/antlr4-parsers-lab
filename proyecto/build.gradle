@@ -1,5 +1,7 @@
 plugins {
     id 'java'
+    id 'antlr'
+    id 'application'
 }
 
 group = 'org.example'
@@ -15,6 +17,11 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
     implementation 'org.antlr:antlr4-runtime:4.13.2'
     implementation "org.antlr:antlr4:4.13.1"
+    antlr 'org.antlr:antlr4:4.13.2'
+}
+
+generateGrammarSource {
+    arguments += ['-visitor']
 }
 
 test {
@@ -27,4 +34,14 @@ sourceSets {
             srcDirs = ['src/main/java', 'build/generated-src/antlr/main']
         }
     }
+}
+compileJava.dependsOn generateGrammarSource
+
+application {
+    // ./gradlew run -PmainClass=epp.EPPMain   (csv.CSVMain, epp.EPPMain or ikea.IkeaMain)
+    mainClass = project.findProperty('mainClass') ?: 'csv.CSVMain'
+}
+
+run {
+    standardInput = System.in
 }
