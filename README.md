@@ -42,10 +42,11 @@ cd proyecto
 ./gradlew build
 ./gradlew run -q --console=plain                            # CSV parser
 ./gradlew run -q --console=plain -PmainClass=epp.EPPMain    # E++ parser
-./gradlew run -q --console=plain -PmainClass=ikea.IkeaMain  # IKEA manuals
+./gradlew run -q --console=plain -PmainClass=ikea.IkeaMain  # IKEA manuals (tree viewer)
+./gradlew run -q --console=plain -PmainClass=ikea.Analyzer  # IKEA manuals (fittings and tools report)
 ```
 
-Each program asks for an input file (for example `../archivos-prueba/CSV_01.txt`) and then lets you show the tree graphically, export it as text or change the file; type `exit` to quit.
+The CSV and E++ programs ask for an input file (for example `../archivos-prueba/CSV_01.txt`) and let you show the tree graphically, export it as text or change the file. `IkeaMain` asks for a manual and opens its tree, and `Analyzer` asks for a manual and prints the report. Type `exit` to quit the interactive programs.
 
 ## Authors
 
